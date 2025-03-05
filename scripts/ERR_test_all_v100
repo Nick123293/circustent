@@ -1,0 +1,36 @@
+
+Inactive Modules:
+  1) nvhpc/21.3-mpi
+
+The following have been reloaded with a version change:
+  1) gcc/10.1.0 => gcc/9.3.0
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(15): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(29): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(43): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(57): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(71): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(85): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(99): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(112): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(151): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(173): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(195): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(215): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(235): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(255): warning: variable "ret" was set but never used
+
+slurmstepd: error: *** STEP 16132696.0 ON gpu-20-1 CANCELLED AT 2025-03-01T13:43:51 ***

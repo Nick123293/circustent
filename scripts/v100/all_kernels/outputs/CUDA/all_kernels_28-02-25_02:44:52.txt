@@ -1,0 +1,645 @@
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:52 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:52 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:52 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:54 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:54 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:54 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:54 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:54 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:54 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:54 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:54 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:54 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:54 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:54 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:54 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:54 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:54 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:54 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:55 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:55 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:55 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:55 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:55 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:55 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:55 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:55 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:55 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:55 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:55 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:55 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:55 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:55 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:55 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:55 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:56 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:56 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:56 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:56 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:56 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:56 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:56 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:56 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:56 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:56 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:56 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:56 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:56 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:56 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:56 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:57 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:57 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:57 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  28-02-25 AT 02:44:57 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the CUDA impl...
+                  28-02-25 AT 02:44:57 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+Unknown option: --blocks
+Failed to parse command line options
+
+

@@ -8,7 +8,7 @@ HLINE="------------------------------------------------------"
 #######################################################################
 #           Set the implementation that you wish to run                      
 #######################################################################
-BACKENDS="CUDA OpenMP"
+# BACKENDS="CUDA OpenMP"
 IMPL=$1
 if [[ -z "$IMPL" ]]; then
   echo "Error: IMPL argument is required."
@@ -23,6 +23,29 @@ BLOCKS=${2:-32}
 THREADS=${3:-256}
 ITERS=${4:-500000}
 MEM_SIZE=${5:-32089730048}
+#4294967296
+
+#######################################################################
+#             Set implementation-specific env variables
+#######################################################################
+if [[ "$IMPL" == "OpenMP" ]]; then
+  export OMP_TARGET_OFFLOAD=MANDATORY
+  export OMP_DEFAULT_DEVICE=0  # Set to the correct device ID for your V100
+  export OMP_NUM_TEAMS=$BLOCKS
+  export OMP_NUM_THREADS=$THREADS
+  export LIBOMPTARGET_DEBUG=1  # Enable OpenMP runtime debugging
+  export NVCOMPILER_ACC_DEBUG=1
+  export NVCOMPILER_ACC_NOTIFY=1
+  echo "Set OpenMP environment variables: OMP_TARGET_OFFLOAD=$OMP_TARGET_OFFLOAD, OMP_DEFAULT_DEVICE=$OMP_DEFAULT_DEVICE, OMP_NUM_TEAMS=$OMP_NUM_TEAMS, OMP_NUM_THREADS=$OMP_NUM_THREADS, LIBOMPTARGET_DEBUG=$LIBOMPTARGET_DEBUG"
+elif [[ "$IMPL" == "OpenACC" ]]; then
+  export NVCOMPILER_ACC_NOTIFY=1
+  export NV_ACC_TIME=1
+  export ACC_DEVICE_TYPE=nvidia
+  export ACC_DEVICE_NUM=0  # Set to the correct device ID for your A100
+  export ACC_NUM_GANGS=$BLOCKS
+  export ACC_NUM_WORKERS=$THREADS
+  echo "Set OpenACC environment variables: NVCOMPILER_ACC_NOTIFY=$NVCOMPILER_ACC_NOTIFY, NV_ACC_TIME=$NV_ACC_TIME, ACC_DEVICE_TYPE=$ACC_DEVICE_TYPE, ACC_DEVICE_NUM=$ACC_DEVICE_NUM, ACC_NUM_GANGS=$ACC_NUM_GANGS, ACC_NUM_WORKERS=$ACC_NUM_WORKERS"
+fi
 
 #######################################################################
 #                      Create output file  
@@ -48,8 +71,8 @@ cd $TEST_DIR
 #######################################################################
 #                         Run each all CUDA kernels
 #######################################################################
-# BENCH="RAND_ADD RAND_CAS STRIDE1_ADD STRIDE1_CAS STRIDEN_ADD STRIDEN_CAS CENTRAL_ADD CENTRAL_CAS SG_ADD SG_CAS SCATTER_ADD SCATTER_CAS GATHER_ADD GATHER_CAS"
-BENCH="STRIDEN_ADD STRIDEN_CAS"
+BENCH="RAND_ADD RAND_CAS STRIDE1_ADD STRIDE1_CAS STRIDEN_ADD STRIDEN_CAS CENTRAL_ADD CENTRAL_CAS SG_ADD SG_CAS SCATTER_ADD SCATTER_CAS GATHER_ADD GATHER_CAS"
+# BENCH="STRIDEN_ADD STRIDEN_CAS"
 for i in {1..5}; do
   echo $HHLINE >> $OUTPUT_FILE
   echo "        ITERATION $i" >> $OUTPUT_FILE

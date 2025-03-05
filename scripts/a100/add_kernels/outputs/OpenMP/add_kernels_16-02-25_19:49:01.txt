@@ -1,0 +1,135 @@
+=============================================================
+                      ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  16-02-25 AT 19:49:01 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 1048576 -i 500 --pes 32
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x15235f2fa000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x152349800000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting RAND_ADD kernel with 500 iterations and 32 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.000831842
+ Giga AMOs/sec (GAMS) : 0.0192344
+================================================
+Execution finished for RAND_ADD
+
+=============================================================
+                      ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  16-02-25 AT 19:49:01 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 1048576 -i 500 --pes 32
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x149bf32fa000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x149bdd800000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting RAND_ADD kernel with 500 iterations and 32 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.000784159
+ Giga AMOs/sec (GAMS) : 0.020404
+================================================
+Execution finished for RAND_ADD
+
+=============================================================
+                      ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  16-02-25 AT 19:49:02 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 1048576 -i 500 --pes 32
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x14c1f32fa000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14c1dd800000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting RAND_ADD kernel with 500 iterations and 32 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.000813007
+ Giga AMOs/sec (GAMS) : 0.01968
+================================================
+Execution finished for RAND_ADD
+
+=============================================================
+                      ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  16-02-25 AT 19:49:02 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 1048576 -i 500 --pes 32
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x14a9f32fa000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14a9dd800000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting RAND_ADD kernel with 500 iterations and 32 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.000814915
+ Giga AMOs/sec (GAMS) : 0.019634
+================================================
+Execution finished for RAND_ADD
+
+=============================================================
+                      ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  16-02-25 AT 19:49:02 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 1048576 -i 500 --pes 32
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x14df432fa000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14df2d800000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting RAND_ADD kernel with 500 iterations and 32 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.000853062
+ Giga AMOs/sec (GAMS) : 0.018756
+================================================
+Execution finished for RAND_ADD
+

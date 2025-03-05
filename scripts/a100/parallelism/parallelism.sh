@@ -9,7 +9,12 @@ HLINE="------------------------------------------------------"
 #           Set the implementation that you wish to run                      
 #######################################################################
 BACKENDS="CUDA OpenMP"
-IMPL="CUDA"
+IMPL=$1
+if [[ -z "$IMPL" ]]; then
+  echo "Error: IMPL argument is required."
+  echo "Usage: $0 <IMPL> [blocks] [threads] [iters] [mem_size]"
+  exit 1
+fi
 # IMPL="OpenMP"
 
 #######################################################################
@@ -33,7 +38,7 @@ fi
 #                      Create output file  
 #######################################################################
 TEST_DIR=$(pwd)
-OUTPUT_FILE=$TEST_DIR/outputs/$IMPL/all_kernels_$(date +"%d-%m-%y")_$(date +"%T").txt
+OUTPUT_FILE=$TEST_DIR/outputs/$IMPL/parallelism_$(date +"%d-%m-%y")_$(date +"%T").txt
 if [[ -f $OUTPUT_FILE ]] ; then
     rm $OUTPUT_FILE
     touch $OUTPUT_FILE
@@ -54,7 +59,7 @@ cd $TEST_DIR
 #######################################################################
 #                         Run each all CUDA kernels
 #######################################################################
-BENCH="RAND_ADD RAND_CAS STRIDE1_ADD STRIDE1_CAS STRIDEN_ADD STRIDEN_CAS CENTRAL_ADD CENTRAL_CAS SG_ADD SG_CAS SCATTER_ADD SCATTER_CAS GATHER_ADD GATHER_CAS"
+BENCH="RAND_ADD STRIDE1_ADD STRIDEN_ADD SG_ADD SCATTER_ADD GATHER_ADD"
 
 BLOCKS=16
 for i in {1..5}; do

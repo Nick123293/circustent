@@ -1,0 +1,14 @@
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  28-02-25 AT 14:58:30 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14a2b2000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14a7c8000000

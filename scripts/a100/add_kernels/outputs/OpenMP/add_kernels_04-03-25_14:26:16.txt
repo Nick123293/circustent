@@ -1,0 +1,32 @@
+=============================================================
+                      ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  04-03-25 AT 14:26:16 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 32089730048 -i 500000 --pes 32
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x145b24000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1462ba000000
+Execution finished for RAND_ADD
+
+=============================================================
+                      ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  04-03-25 AT 14:26:36 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 32089730048 -i 500000 --pes 32
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x1480cc000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x148862000000

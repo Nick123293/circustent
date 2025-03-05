@@ -1,0 +1,56 @@
+Sat Mar  1 13:42:58 CST 2025
+Running cuda tests...
+GPU: v100
+Backend: cuda
+GPU_FLAGS: -arch=sm_70
+ENABLE_FLAG: -DENABLE_CUDA=ON
+LINK_FLAGS: 
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/local/cuda-11.0/bin/nvcc
+-- Check for working C compiler: /usr/local/cuda-11.0/bin/nvcc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/local/cuda-11.0/bin/nvcc
+-- Check for working CXX compiler: /usr/local/cuda-11.0/bin/nvcc - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- I could not find the htlatex command.
+-- I could not find the biber command.
+-- I could not find the pdftops command.
+-- DISABLING OpenMP Implementation
+-- DISABLING OpenMP Target Implementation
+-- DISABLING OpenSHMEM Implementation
+-- DISABLING MPI Implementation
+-- DISABLING XBGAS Implementation
+-- DISABLING Pthreads Implementation
+-- DISABLING OpenACC Implementation
+-- DISABLING OpenCL Implementation
+-- DISABLING C++ Standard Atomics Implementation
+-- The CUDA compiler identification is NVIDIA 11.0.194
+-- Check for working CUDA compiler: /usr/local/cuda-11.0/bin/nvcc
+-- Check for working CUDA compiler: /usr/local/cuda-11.0/bin/nvcc - works
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Found CUDAToolkit: /usr/local/cuda-11.0/include (found version "11.0.194") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- ENABLING CUDA Implementation
+-- CT_INCLUDE_PATH set to /home/and21829/circustent_journal_eval/circustent/include
+-- CT_SRC_PATH set to /home/and21829/circustent_journal_eval/circustent/src/CircusTent
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/and21829/circustent_journal_eval/circustent/build
+Scanning dependencies of target CT_CUDA_OBJS
+[ 20%] Building CUDA object src/CircusTent/Impl/CT_CUDA/CMakeFiles/CT_CUDA_OBJS.dir/CT_CUDA.cu.o
+[ 40%] Building CUDA object src/CircusTent/Impl/CT_CUDA/CMakeFiles/CT_CUDA_OBJS.dir/CT_CUDA_IMPL.cu.o
+[ 40%] Built target CT_CUDA_OBJS

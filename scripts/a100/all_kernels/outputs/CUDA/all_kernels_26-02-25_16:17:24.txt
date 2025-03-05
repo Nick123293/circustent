@@ -1,0 +1,855 @@
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:24 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:24 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:24 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:24 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:24 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:24 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:24 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:26 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:27 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:27 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:27 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:27 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  26-02-25 AT 16:17:27 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the CUDA impl...
+                  26-02-25 AT 16:17:27 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+CT_CUDA::PrintCUDADeviceProperties: cudaGetDeviceCount failed!
+ERROR: COULD NOT PRINT CUDA DEVICE PROPERTIES FOR CT_CUDA
+
+

@@ -1,0 +1,991 @@
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 18:55:41 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 18:56:02 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 18:56:23 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 18:56:44 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 18:57:04 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 18:57:25 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 18:57:46 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 18:58:07 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 18:58:28 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 18:58:49 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 18:59:10 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 18:59:31 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 18:59:52 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:00:13 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:00:34 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:00:55 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:01:16 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:01:37 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:01:58 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:02:19 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:02:40 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:03:01 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:03:22 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:03:43 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:04:05 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:04:26 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:04:47 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:05:08 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:05:29 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:05:50 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:06:11 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:06:32 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:06:54 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:07:15 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:07:36 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:07:57 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:08:18 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:08:39 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:09:00 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:09:21 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:09:42 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:10:03 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:10:25 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:10:46 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:11:07 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:11:28 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:11:49 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:12:10 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:12:31 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:12:52 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:13:14 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:13:35 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:13:56 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:14:17 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:14:38 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:14:59 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:20 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  27-02-25 AT 19:15:41 
+------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+

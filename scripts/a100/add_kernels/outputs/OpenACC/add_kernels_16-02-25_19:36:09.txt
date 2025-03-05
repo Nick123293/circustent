@@ -1,0 +1,70 @@
+=============================================================
+                      ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  16-02-25 AT 19:36:10 
+------------------------------------------------------
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 1048576 -p 32 -i 500
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+
+
+=============================================================
+                      ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  16-02-25 AT 19:36:10 
+------------------------------------------------------
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 1048576 -p 32 -i 500
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+
+
+=============================================================
+                      ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  16-02-25 AT 19:36:10 
+------------------------------------------------------
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 1048576 -p 32 -i 500
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+
+
+=============================================================
+                      ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  16-02-25 AT 19:36:11 
+------------------------------------------------------
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 1048576 -p 32 -i 500
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+
+
+=============================================================
+                      ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  16-02-25 AT 19:36:11 
+------------------------------------------------------
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 1048576 -p 32 -i 500
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+
+

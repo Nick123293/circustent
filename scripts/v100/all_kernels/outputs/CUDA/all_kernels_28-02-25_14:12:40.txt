@@ -1,0 +1,76 @@
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  28-02-25 AT 14:12:40 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: Tesla V100-PCIE-32GB
+Global Memory (bytes): 34089730048
+Compute Capability: 7.0
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the CUDA impl...
+                  28-02-25 AT 14:13:15 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: Tesla V100-PCIE-32GB
+Global Memory (bytes): 34089730048
+Compute Capability: 7.0
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  28-02-25 AT 14:13:36 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: Tesla V100-PCIE-32GB
+Global Memory (bytes): 34089730048
+Compute Capability: 7.0
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the CUDA impl...
+                  28-02-25 AT 14:13:57 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: Tesla V100-PCIE-32GB
+Global Memory (bytes): 34089730048
+Compute Capability: 7.0
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  28-02-25 AT 14:14:18 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: Tesla V100-PCIE-32GB
+Global Memory (bytes): 34089730048
+Compute Capability: 7.0

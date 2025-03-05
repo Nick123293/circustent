@@ -1,0 +1,299 @@
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  01-03-25 AT 14:05:13 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00343704
+ Giga AMOs/sec (GAMS) : 4.65517
+================================================
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the CUDA impl...
+                  01-03-25 AT 14:05:21 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : RAND_CAS
+ Timing (secs)        : 0.00359011
+ Giga AMOs/sec (GAMS) : 4.45669
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  01-03-25 AT 14:05:29 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.000666857
+ Giga AMOs/sec (GAMS) : 23.9932
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the CUDA impl...
+                  01-03-25 AT 14:05:37 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : STRIDE1_CAS
+ Timing (secs)        : 0.00160003
+ Giga AMOs/sec (GAMS) : 9.99983
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  01-03-25 AT 14:05:45 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.000660896
+ Giga AMOs/sec (GAMS) : 24.2095
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the CUDA impl...
+                  01-03-25 AT 14:05:53 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : STRIDEN_CAS
+ Timing (secs)        : 0.00159001
+ Giga AMOs/sec (GAMS) : 10.0628
+================================================
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the CUDA impl...
+                  01-03-25 AT 14:06:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : CENTRAL_ADD
+ Timing (secs)        : 0.015929
+ Giga AMOs/sec (GAMS) : 1.00446
+================================================
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the CUDA impl...
+                  01-03-25 AT 14:06:09 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : CENTRAL_CAS
+ Timing (secs)        : 0.0400529
+ Giga AMOs/sec (GAMS) : 0.399472
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  01-03-25 AT 14:06:17 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.00411701
+ Giga AMOs/sec (GAMS) : 15.5453
+================================================
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the CUDA impl...
+                  01-03-25 AT 14:06:25 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : SG_CAS
+ Timing (secs)        : 0.00661492
+ Giga AMOs/sec (GAMS) : 9.67509
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  01-03-25 AT 14:06:33 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00385404
+ Giga AMOs/sec (GAMS) : 12.4545
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the CUDA impl...
+                  01-03-25 AT 14:06:41 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : SCATTER_CAS
+ Timing (secs)        : 0.00521588
+ Giga AMOs/sec (GAMS) : 9.20266
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  01-03-25 AT 14:06:49 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00427389
+ Giga AMOs/sec (GAMS) : 11.231
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the CUDA impl...
+                  01-03-25 AT 14:06:57 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : GATHER_CAS
+ Timing (secs)        : 0.0059948
+ Giga AMOs/sec (GAMS) : 8.00694
+================================================
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  01-03-25 AT 14:07:05 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 1
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0

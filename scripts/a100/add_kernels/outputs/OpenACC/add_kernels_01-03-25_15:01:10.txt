@@ -1,0 +1,75 @@
+=============================================================
+                      ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  01-03-25 AT 15:01:10 
+------------------------------------------------------
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 40000076736 -p 32 -i 32089730048
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+CT_OPENACC::AllocateData : 'Array' is not large enough for pes=32; iters=32089730048; stride =1
+ERROR : COULD NOT ALLOCATE MEMORY FOR CT_OPENACC
+
+
+=============================================================
+                      ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  01-03-25 AT 15:01:10 
+------------------------------------------------------
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 40000076736 -p 32 -i 32089730048
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+CT_OPENACC::AllocateData : 'Array' is not large enough for pes=32; iters=32089730048; stride =1
+ERROR : COULD NOT ALLOCATE MEMORY FOR CT_OPENACC
+
+
+=============================================================
+                      ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  01-03-25 AT 15:01:10 
+------------------------------------------------------
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 40000076736 -p 32 -i 32089730048
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+CT_OPENACC::AllocateData : 'Array' is not large enough for pes=32; iters=32089730048; stride =1
+ERROR : COULD NOT ALLOCATE MEMORY FOR CT_OPENACC
+
+
+=============================================================
+                      ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  01-03-25 AT 15:01:11 
+------------------------------------------------------
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 40000076736 -p 32 -i 32089730048
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+CT_OPENACC::AllocateData : 'Array' is not large enough for pes=32; iters=32089730048; stride =1
+ERROR : COULD NOT ALLOCATE MEMORY FOR CT_OPENACC
+
+
+=============================================================
+                      ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  01-03-25 AT 15:01:11 
+------------------------------------------------------
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 40000076736 -p 32 -i 32089730048
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+CT_OPENACC::AllocateData : 'Array' is not large enough for pes=32; iters=32089730048; stride =1
+ERROR : COULD NOT ALLOCATE MEMORY FOR CT_OPENACC
+
+

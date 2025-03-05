@@ -1,0 +1,143 @@
+Fri Feb 28 17:44:33 CST 2025
+Running cuda tests...
+GPU: a100
+Backend: cuda
+GPU_FLAGS: -arch=sm_80
+ENABLE_FLAG: -DENABLE_CUDA=ON
+LINK_FLAGS: 
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /opt/apps/nfs/spack/opt/spack/linux-centos8-zen2/gcc-9.3.0/cuda-11.3.0-ehfxszyrzs6i2igfjnkesnlzbtr4y2n7/bin/nvcc
+-- Check for working C compiler: /opt/apps/nfs/spack/opt/spack/linux-centos8-zen2/gcc-9.3.0/cuda-11.3.0-ehfxszyrzs6i2igfjnkesnlzbtr4y2n7/bin/nvcc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /opt/apps/nfs/spack/opt/spack/linux-centos8-zen2/gcc-9.3.0/cuda-11.3.0-ehfxszyrzs6i2igfjnkesnlzbtr4y2n7/bin/nvcc
+-- Check for working CXX compiler: /opt/apps/nfs/spack/opt/spack/linux-centos8-zen2/gcc-9.3.0/cuda-11.3.0-ehfxszyrzs6i2igfjnkesnlzbtr4y2n7/bin/nvcc - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- I could not find the htlatex command.
+-- I could not find the biber command.
+-- I could not find the pdftops command.
+-- DISABLING OpenMP Implementation
+-- DISABLING OpenMP Target Implementation
+-- DISABLING OpenSHMEM Implementation
+-- DISABLING MPI Implementation
+-- DISABLING XBGAS Implementation
+-- DISABLING Pthreads Implementation
+-- DISABLING OpenACC Implementation
+-- DISABLING OpenCL Implementation
+-- DISABLING C++ Standard Atomics Implementation
+-- The CUDA compiler identification is NVIDIA 11.3.58
+-- Check for working CUDA compiler: /opt/apps/nfs/spack/opt/spack/linux-centos8-zen2/gcc-9.3.0/cuda-11.3.0-ehfxszyrzs6i2igfjnkesnlzbtr4y2n7/bin/nvcc
+-- Check for working CUDA compiler: /opt/apps/nfs/spack/opt/spack/linux-centos8-zen2/gcc-9.3.0/cuda-11.3.0-ehfxszyrzs6i2igfjnkesnlzbtr4y2n7/bin/nvcc - works
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Found CUDAToolkit: /opt/apps/nfs/spack/opt/spack/linux-centos8-zen2/gcc-9.3.0/cuda-11.3.0-ehfxszyrzs6i2igfjnkesnlzbtr4y2n7/include (found version "11.3.58") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- ENABLING CUDA Implementation
+-- CT_INCLUDE_PATH set to /home/and21829/circustent_journal_eval/circustent/include
+-- CT_SRC_PATH set to /home/and21829/circustent_journal_eval/circustent/src/CircusTent
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/and21829/circustent_journal_eval/circustent/build
+Scanning dependencies of target CT_CUDA_OBJS
+[ 20%] Building CUDA object src/CircusTent/Impl/CT_CUDA/CMakeFiles/CT_CUDA_OBJS.dir/CT_CUDA.cu.o
+[ 40%] Building CUDA object src/CircusTent/Impl/CT_CUDA/CMakeFiles/CT_CUDA_OBJS.dir/CT_CUDA_IMPL.cu.o
+[ 40%] Built target CT_CUDA_OBJS
+Scanning dependencies of target circustent
+[ 60%] Building CXX object src/CircusTent/CMakeFiles/circustent.dir/CT_Main.cpp.o
+[ 80%] Building CXX object src/CircusTent/CMakeFiles/circustent.dir/CTOpts.cpp.o
+[100%] Linking CXX executable circustent
+[100%] Built target circustent
+CUDA built, running all kernels
+1 iteration complete
+2 iteration complete
+3 iteration complete
+4 iteration complete
+5 iteration complete
+all kernels done, running parallelism
+1 iteration complete
+2 iteration complete
+3 iteration complete
+4 iteration complete
+5 iteration complete
+completed 16 block test
+1 iteration complete
+2 iteration complete
+3 iteration complete
+4 iteration complete
+5 iteration complete
+completed 32 block test
+1 iteration complete
+2 iteration complete
+3 iteration complete
+4 iteration complete
+5 iteration complete
+completed 64 block test
+1 iteration complete
+2 iteration complete
+3 iteration complete
+4 iteration complete
+5 iteration complete
+completed 128 block test
+Running OpenMP tests...
+GPU: a100
+Backend: openmp
+GPU_FLAGS: -mp=gpu -Minfo=mp -gpu=cc80
+ENABLE_FLAG: -DENABLE_OMP_TARGET=ON
+LINK_FLAGS: -mp=gpu -gpu=cc80
+-- The C compiler identification is PGI 21.3.0
+-- The CXX compiler identification is PGI 21.3.0
+-- Check for working C compiler: /opt/apps/nfs/spack/opt/spack/linux-centos8-zen2/gcc-9.3.0/nvhpc-21.3-rjjnyvxif3czjq4groncoluqbhjt6g2u/Linux_x86_64/21.3/compilers/bin/nvc
+-- Check for working C compiler: /opt/apps/nfs/spack/opt/spack/linux-centos8-zen2/gcc-9.3.0/nvhpc-21.3-rjjnyvxif3czjq4groncoluqbhjt6g2u/Linux_x86_64/21.3/compilers/bin/nvc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /opt/apps/nfs/spack/opt/spack/linux-centos8-zen2/gcc-9.3.0/nvhpc-21.3-rjjnyvxif3czjq4groncoluqbhjt6g2u/Linux_x86_64/21.3/compilers/bin/nvc++
+-- Check for working CXX compiler: /opt/apps/nfs/spack/opt/spack/linux-centos8-zen2/gcc-9.3.0/nvhpc-21.3-rjjnyvxif3czjq4groncoluqbhjt6g2u/Linux_x86_64/21.3/compilers/bin/nvc++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- I could not find the htlatex command.
+-- I could not find the biber command.
+-- I could not find the pdftops command.
+-- DISABLING OpenMP Implementation
+-- ENABLING OpenMP Target Implementation
+-- DISABLING OpenSHMEM Implementation
+-- DISABLING MPI Implementation
+-- DISABLING XBGAS Implementation
+-- DISABLING Pthreads Implementation
+-- DISABLING OpenACC Implementation
+-- DISABLING OpenCL Implementation
+-- DISABLING C++ Standard Atomics Implementation
+-- DISABLING CUDA Implementation
+-- CT_INCLUDE_PATH set to /home/and21829/circustent_journal_eval/circustent/include
+-- CT_SRC_PATH set to /home/and21829/circustent_journal_eval/circustent/src/CircusTent
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/and21829/circustent_journal_eval/circustent/build
+Scanning dependencies of target CT_OMP_TARGET_OBJS
+[ 20%] Building CXX object src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/CT_OMP_TARGET.cpp.o
+[ 40%] Building C object src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/CT_OMP_TARGET_IMPL.c.o
+[ 40%] Built target CT_OMP_TARGET_OBJS
+Scanning dependencies of target circustent
+[ 60%] Building CXX object src/CircusTent/CMakeFiles/circustent.dir/CT_Main.cpp.o
+[ 80%] Building CXX object src/CircusTent/CMakeFiles/circustent.dir/CTOpts.cpp.o
+[100%] Linking CXX executable circustent
+[100%] Built target circustent
+OpenMP built, running all kernels
+Set OpenMP environment variables: OMP_TARGET_OFFLOAD=MANDATORY, OMP_DEFAULT_DEVICE=0, OMP_NUM_TEAMS=32, OMP_NUM_THREADS=256, LIBOMPTARGET_DEBUG=1
+1 iteration complete
+2 iteration complete

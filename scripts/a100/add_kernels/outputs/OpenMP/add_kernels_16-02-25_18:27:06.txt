@@ -1,0 +1,110 @@
+=============================================================
+                      ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  16-02-25 AT 18:27:07 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 1073741824 -i 500 --pes 32
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x154860000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1548d32fa000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting RAND_ADD kernel with 500 iterations and 32 PEs...
+Team 0 starting...
+Execution finished for RAND_ADD
+
+=============================================================
+                      ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  16-02-25 AT 18:27:09 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 1073741824 -i 500 --pes 32
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x1530a0000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x15310f2fa000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting RAND_ADD kernel with 500 iterations and 32 PEs...
+Team 0 starting...
+Execution finished for RAND_ADD
+
+=============================================================
+                      ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  16-02-25 AT 18:27:11 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 1073741824 -i 500 --pes 32
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x145a40000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x145ab32fa000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting RAND_ADD kernel with 500 iterations and 32 PEs...
+Team 0 starting...
+Execution finished for RAND_ADD
+
+=============================================================
+                      ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  16-02-25 AT 18:27:13 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 1073741824 -i 500 --pes 32
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x14a940000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14a9c72fa000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting RAND_ADD kernel with 500 iterations and 32 PEs...
+Team 0 starting...
+Execution finished for RAND_ADD
+
+=============================================================
+                      ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  16-02-25 AT 18:27:15 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Executing: /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/circustent --bench RAND_ADD -m 1073741824 -i 500 --pes 32
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x152440000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1524b72fa000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting RAND_ADD kernel with 500 iterations and 32 PEs...
+Team 0 starting...
+Execution finished for RAND_ADD
+

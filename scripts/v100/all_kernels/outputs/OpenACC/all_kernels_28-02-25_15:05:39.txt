@@ -1,0 +1,167 @@
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  28-02-25 AT 15:05:39 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: Tesla V100-PCIE-32GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.000200033
+ Giga AMOs/sec (GAMS) : 79.9867
+================================================
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the OpenACC impl...
+                  28-02-25 AT 15:05:42 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  28-02-25 AT 15:05:42 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: Tesla V100-PCIE-32GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.000206947
+ Giga AMOs/sec (GAMS) : 77.3144
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the OpenACC impl...
+                  28-02-25 AT 15:05:46 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  28-02-25 AT 15:05:46 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: Tesla V100-PCIE-32GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.000216007
+ Giga AMOs/sec (GAMS) : 74.0716
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the OpenACC impl...
+                  28-02-25 AT 15:05:49 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the OpenACC impl...
+                  28-02-25 AT 15:05:50 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: Tesla V100-PCIE-32GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : CENTRAL_ADD
+ Timing (secs)        : 0.000158072
+ Giga AMOs/sec (GAMS) : 101.22
+================================================
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the OpenACC impl...
+                  28-02-25 AT 15:05:53 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  28-02-25 AT 15:05:53 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: Tesla V100-PCIE-32GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.124338
+ Giga AMOs/sec (GAMS) : 0.514726
+================================================
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the OpenACC impl...
+                  28-02-25 AT 15:05:57 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  28-02-25 AT 15:05:57 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: Tesla V100-PCIE-32GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.000216007
+ Giga AMOs/sec (GAMS) : 222.215
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the OpenACC impl...
+                  28-02-25 AT 15:06:00 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  28-02-25 AT 15:06:00 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: Tesla V100-PCIE-32GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.1213
+ Giga AMOs/sec (GAMS) : 0.395713
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the OpenACC impl...
+                  28-02-25 AT 15:06:04 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  28-02-25 AT 15:06:04 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: Tesla V100-PCIE-32GB

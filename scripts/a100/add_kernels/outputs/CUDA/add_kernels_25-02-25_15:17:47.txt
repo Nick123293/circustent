@@ -1,0 +1,115 @@
+=============================================================
+                      ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  25-02-25 AT 15:17:47 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00350094
+ Giga AMOs/sec (GAMS) : 4.5702
+================================================
+
+
+=============================================================
+                      ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  25-02-25 AT 15:18:44 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00343299
+ Giga AMOs/sec (GAMS) : 4.66066
+================================================
+
+
+=============================================================
+                      ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  25-02-25 AT 15:19:42 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00344396
+ Giga AMOs/sec (GAMS) : 4.64582
+================================================
+
+
+=============================================================
+                      ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  25-02-25 AT 15:20:39 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00336599
+ Giga AMOs/sec (GAMS) : 4.75343
+================================================
+
+
+=============================================================
+                      ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  25-02-25 AT 15:21:37 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00344396
+ Giga AMOs/sec (GAMS) : 4.64582
+================================================
+
+

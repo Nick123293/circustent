@@ -1,0 +1,10 @@
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  28-02-25 AT 15:04:55 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: Tesla V100-PCIE-32GB

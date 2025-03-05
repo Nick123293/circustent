@@ -1,0 +1,356 @@
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  28-02-25 AT 18:56:31 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x148a2c000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1491c2000000
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the OpenMP impl...
+                  28-02-25 AT 18:56:51 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OMP_TARGET
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  28-02-25 AT 18:56:51 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x152b48000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1532de000000
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the OpenMP impl...
+                  28-02-25 AT 19:22:47 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OMP_TARGET
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  28-02-25 AT 19:22:47 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x14ae88000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14b61e000000
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the OpenMP impl...
+                  28-02-25 AT 19:56:07 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OMP_TARGET
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the OpenMP impl...
+                  28-02-25 AT 19:56:07 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x149c7c000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14a412000000
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the OpenMP impl...
+                  28-02-25 AT 20:29:29 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OMP_TARGET
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  28-02-25 AT 20:29:29 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x150f3c000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1516d2000000
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the OpenMP impl...
+                  28-02-25 AT 21:02:48 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OMP_TARGET
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  28-02-25 AT 21:02:48 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x150af4000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x15128a000000
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the OpenMP impl...
+                  28-02-25 AT 21:36:08 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OMP_TARGET
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  28-02-25 AT 21:36:08 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x1452b8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x145a4e000000
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the OpenMP impl...
+                  28-02-25 AT 21:37:03 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OMP_TARGET
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  28-02-25 AT 21:37:03 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x14b758000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14beee000000
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the OpenMP impl...
+                  28-02-25 AT 22:09:28 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OMP_TARGET
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  28-02-25 AT 22:09:28 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x154798000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x154f2e000000
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the OpenMP impl...
+                  28-02-25 AT 22:42:49 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OMP_TARGET
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  28-02-25 AT 22:42:49 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x147cc8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14845e000000
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the OpenMP impl...
+                  28-02-25 AT 22:43:10 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OMP_TARGET
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the OpenMP impl...
+                  28-02-25 AT 22:43:10 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x147458000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x147bee000000
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the OpenMP impl...
+                  28-02-25 AT 23:16:08 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OMP_TARGET
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  28-02-25 AT 23:16:08 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x14fce8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x15047e000000
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the OpenMP impl...
+                  28-02-25 AT 23:16:29 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OMP_TARGET
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  28-02-25 AT 23:16:29 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x14fda4000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x15053a000000
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the OpenMP impl...
+                  28-02-25 AT 23:49:29 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OMP_TARGET
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  28-02-25 AT 23:49:29 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x14f628000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14fdbe000000
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the OpenMP impl...
+                  28-02-25 AT 23:49:50 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OMP_TARGET
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  28-02-25 AT 23:49:50 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x151cec000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x152482000000
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the OpenMP impl...
+                  01-03-25 AT 00:22:52 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OMP_TARGET
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  01-03-25 AT 00:22:52 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x154808000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x154f9e000000
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the OpenMP impl...
+                  01-03-25 AT 00:23:13 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OMP_TARGET
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  01-03-25 AT 00:23:13 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 1 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE set to 0
+Allocating Array on target device...
+Array allocation done. Address: 0x14642c000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x146bc2000000

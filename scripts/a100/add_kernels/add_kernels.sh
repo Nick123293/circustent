@@ -22,10 +22,11 @@ fi
 
 # --- Edit the run configuration
 BLOCKS=${2:-32}
-THREADS=${3:-256}
+THREADS=${3:-128}
 ITERS=${4:-500000}
-MEM_SIZE=${5:-40000076736}
-
+MEM_SIZE=${5:-32089730048}
+#32089730048
+echo "Impl=$IMPL Blocks=$BLOCKS Threads=$THREADS Mem_Size=$MEM_SIZE"
 # --- Set implementation-specific env variables
 if [[ "$IMPL" == "OpenMP" ]]; then
   export OMP_TARGET_OFFLOAD=MANDATORY

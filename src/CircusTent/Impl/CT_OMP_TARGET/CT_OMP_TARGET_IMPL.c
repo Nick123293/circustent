@@ -17,8 +17,8 @@ void RAND_ADD( uint64_t *restrict ARRAY,
       uint64_t i = 0, ret;
       uint64_t start = (uint64_t) (omp_get_team_num() * iters);
 
-      printf("Team %d starting...\n", omp_get_team_num());
-      fflush(stdout);
+      // printf("Team %d starting...\n", omp_get_team_num());
+      // fflush(stdout);
 
       #pragma omp for simd
       for( i=start; i<(start+iters); i++ ){
@@ -29,8 +29,8 @@ void RAND_ADD( uint64_t *restrict ARRAY,
         }
       }
 
-      printf("Team %d completed...\n", omp_get_team_num());
-      fflush(stdout);
+      // printf("Team %d completed...\n", omp_get_team_num());
+      // fflush(stdout);
     }
   }
 
@@ -53,8 +53,8 @@ void STRIDE1_ADD( uint64_t *restrict ARRAY,
       uint64_t i = 0, ret;
       uint64_t start = (uint64_t) (omp_get_team_num() * iters);
       
-      printf("Team %d starting...\n", omp_get_team_num());
-      fflush(stdout);
+      // printf("Team %d starting...\n", omp_get_team_num());
+      // fflush(stdout);
 
       #pragma omp for simd
       for( i=start; i<(start+iters); i++ ){
@@ -65,8 +65,8 @@ void STRIDE1_ADD( uint64_t *restrict ARRAY,
         }
       }
 
-      printf("Team %d completed...\n", omp_get_team_num());
-      fflush(stdout);
+      // printf("Team %d completed...\n", omp_get_team_num());
+      // fflush(stdout);
     }
   }
 
@@ -90,8 +90,8 @@ void STRIDEN_ADD( uint64_t *restrict ARRAY,
       uint64_t i = 0, ret;
       uint64_t start = (uint64_t) (omp_get_team_num() * iters * stride);
 
-      printf("Team %d starting...\n", omp_get_team_num());
-      fflush(stdout);
+      // printf("Team %d starting...\n", omp_get_team_num());
+      // fflush(stdout);
 
       #pragma omp for simd
       for( i=start; i<(start+(iters*stride)); i+=stride ){
@@ -102,8 +102,8 @@ void STRIDEN_ADD( uint64_t *restrict ARRAY,
         }
       }
 
-      printf("Team %d completed...\n", omp_get_team_num());
-      fflush(stdout);
+      // printf("Team %d completed...\n", omp_get_team_num());
+      // fflush(stdout);
     }
   }
 
@@ -131,8 +131,8 @@ void SG_ADD( uint64_t *restrict ARRAY,
       uint64_t ret;
       uint64_t start = (uint64_t) (omp_get_team_num() * iters);
 
-      printf("Team %d starting...\n", omp_get_team_num());
-      fflush(stdout);
+      // printf("Team %d starting...\n", omp_get_team_num());
+      // fflush(stdout);
 
       #pragma omp for simd
       for( i=start; i<(start+iters); i++ ){
@@ -161,8 +161,8 @@ void SG_ADD( uint64_t *restrict ARRAY,
         }
       }
 
-      printf("Team %d completed...\n", omp_get_team_num());
-      fflush(stdout);
+      // printf("Team %d completed...\n", omp_get_team_num());
+      // fflush(stdout);
     }
   }
 
@@ -184,8 +184,8 @@ void CENTRAL_ADD( uint64_t *restrict ARRAY,
     {
       uint64_t i = 0, ret;
 
-      printf("Team %d starting...\n", omp_get_team_num());
-      fflush(stdout);
+      // printf("Team %d starting...\n", omp_get_team_num());
+      // fflush(stdout);
 
       #pragma omp for simd
       for( i=0; i<iters; i++ ){
@@ -196,8 +196,8 @@ void CENTRAL_ADD( uint64_t *restrict ARRAY,
         }
       }
 
-      printf("Team %d completed...\n", omp_get_team_num());
-      fflush(stdout);
+      // printf("Team %d completed...\n", omp_get_team_num());
+      // fflush(stdout);
     }
   }
 
@@ -224,8 +224,8 @@ void SCATTER_ADD( uint64_t *restrict ARRAY,
       uint64_t ret;
       uint64_t start = (uint64_t) (omp_get_team_num() * iters);
 
-      printf("Team %d starting...\n", omp_get_team_num());
-      fflush(stdout);
+      // printf("Team %d starting...\n", omp_get_team_num());
+      // fflush(stdout);
 
       #pragma omp for simd
       for( i=start; i<(start+iters); i++ ){
@@ -248,8 +248,8 @@ void SCATTER_ADD( uint64_t *restrict ARRAY,
         }
       }
 
-      printf("Team %d completed...\n", omp_get_team_num());
-      fflush(stdout);
+      // printf("Team %d completed...\n", omp_get_team_num());
+      // fflush(stdout);
     }
   }
 
@@ -276,8 +276,8 @@ void GATHER_ADD( uint64_t *restrict ARRAY,
       uint64_t ret;
       uint64_t start = (uint64_t) (omp_get_team_num() * iters);
 
-      printf("Team %d starting...\n", omp_get_team_num());
-      fflush(stdout);
+      // printf("Team %d starting...\n", omp_get_team_num());
+      // fflush(stdout);
 
       #pragma omp for simd
       for( i=start; i<(start+iters); i++ ){
@@ -300,8 +300,8 @@ void GATHER_ADD( uint64_t *restrict ARRAY,
         }
       }
 
-      printf("Team %d completed...\n", omp_get_team_num());
-      fflush(stdout);
+      // printf("Team %d completed...\n", omp_get_team_num());
+      // fflush(stdout);
     }
   }
 

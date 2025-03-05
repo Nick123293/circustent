@@ -32,17 +32,23 @@ echo "Backend: $BACKEND"
 GPU_FLAGS=""
 ENABLE_FLAG=""
 LINK_FLAGS=""
+CXX_COMPILER=""
+C_COMPILER=""
 
 if [[ "$GPU" == "v100" ]]; then
   ml load gcc/10.1.0
-  ml load gcc/9.3.0
+  ml load nvhpc/21.3-mpi
+  CXX_COMPILER=`which nvcc`
+  C_COMPILER=`which nvcc`
   case "$BACKEND" in
     openmp)
       ENABLE_FLAG="-DENABLE_OMP_TARGET=ON"
-      GPU_FLAGS="-mp=gpu -Minfo=mp -gpu"
-      LINK_FLAGS="-mp=gpu -gpu"
+      GPU_FLAGS="-mp=gpu -Minfo=mp -gpu=cc70"
+      LINK_FLAGS="-mp=gpu -gpu=cc70"
       ;;
     cuda)
+      ml load gcc/9.3.0
+      ml load cuda/11.0
       ENABLE_FLAG="-DENABLE_CUDA=ON"
       GPU_FLAGS="-arch=sm_70"
       ;;
@@ -54,6 +60,8 @@ if [[ "$GPU" == "v100" ]]; then
 elif [[ "$GPU" == "a100" ]]; then
   ml load gcc/9.3.0
   ml load nvhpc/21.3-mpi
+  CXX_COMPILER=`which nvcc`
+  C_COMPILER=`which nvcc`
   case "$BACKEND" in
     openmp)
       ENABLE_FLAG="-DENABLE_OMP_TARGET=ON"
@@ -62,6 +70,7 @@ elif [[ "$GPU" == "a100" ]]; then
       export OMP_TARGET_OFFLOAD=MANDATORY
       ;;
     cuda)
+      ml load cuda/11.3.0
       ENABLE_FLAG="-DENABLE_CUDA=ON"
       GPU_FLAGS="-arch=sm_80"
       ;;
@@ -84,6 +93,6 @@ ml load cmake/3.17.3
 cd ../
 mkdir -p build
 cd build
-cmake $ENABLE_FLAG -DCMAKE_CXX_COMPILER=nvc++ -DCMAKE_C_COMPILER=nvc -DCMAKE_CXX_FLAGS="$GPU_FLAGS" -DCMAKE_EXE_LINKER_FLAGS="$LINK_FLAGS" ../
+cmake $ENABLE_FLAG -DCMAKE_CXX_COMPILER="$CXX_COMPILER" -DCMAKE_C_COMPILER="$C_COMPILER" -DCMAKE_CXX_FLAGS="$GPU_FLAGS" -DCMAKE_C_FLAGS="$GPU_FLAGS" -DCMAKE_EXE_LINKER_FLAGS="$LINK_FLAGS" ../
 make
 

@@ -8,18 +8,23 @@ HLINE="------------------------------------------------------"
 #######################################################################
 #           Set the implementation that you wish to run                      
 #######################################################################
-BACKENDS="CUDA OpenMP"
-IMPL="CUDA"
-# IMPL="OpenMP"
-
+#BACKENDS="CUDA OpenMP"
+IMPL=$1
+if [[ -z "$IMPL" ]]; then
+  echo "Error: IMPL argument is required."
+  echo "Usage: $0 <IMPL> [blocks] [threads] [iters] [mem_size]"
+  exit 1
+fi
 #######################################################################
 #                 Edit the run run configuration
 #######################################################################
 BLOCKS=32
 THREADS=256
-MEM_SIZE=32089730048
+#MEM_SIZE=32089730048
+#MEM_SIZE=21474836480
+MEM_SIZE=1073741824
 ITERS=500000
-
+echo "Impl=$IMPL Blocks=$BLOCKS Threads=$THREADS Mem_Size=$MEM_SIZE"
 #######################################################################
 #     Set $COMPILE to true if you want to run the build script
 #######################################################################
@@ -29,7 +34,25 @@ if [[ $COMPILE == true ]]; then
     source BUILD.sh
     cd nv_v100/add_kernels
 fi
-
+# --- Set implementation-specific env variables
+if [[ "$IMPL" == "OpenMP" ]]; then
+  export OMP_TARGET_OFFLOAD=MANDATORY
+  export OMP_DEFAULT_DEVICE=0  # Set to the correct device ID for your V100
+  export OMP_NUM_TEAMS=$BLOCKS
+  export OMP_NUM_THREADS=$THREADS
+  export LIBOMPTARGET_DEBUG=1  # Enable OpenMP runtime debugging
+  export NVCOMPILER_ACC_DEBUG=1
+  export NVCOMPILER_ACC_NOTIFY=1
+  echo "Set OpenMP environment variables: OMP_TARGET_OFFLOAD=$OMP_TARGET_OFFLOAD, OMP_DEFAULT_DEVICE=$OMP_DEFAULT_DEVICE, OMP_NUM_TEAMS=$OMP_NUM_TEAMS, OMP_NUM_THREADS=$OMP_NUM_THREADS, LIBOMPTARGET_DEBUG=$LIBOMPTARGET_DEBUG"
+elif [[ "$IMPL" == "OpenACC" ]]; then
+  export NVCOMPILER_ACC_NOTIFY=1
+  export NV_ACC_TIME=1
+  export ACC_DEVICE_TYPE=nvidia
+  export ACC_DEVICE_NUM=0  # Set to the correct device ID for your A100
+  export ACC_NUM_GANGS=$BLOCKS
+  export ACC_NUM_WORKERS=$THREADS
+  echo "Set OpenACC environment variables: NVCOMPILER_ACC_NOTIFY=$NVCOMPILER_ACC_NOTIFY, NV_ACC_TIME=$NV_ACC_TIME, ACC_DEVICE_TYPE=$ACC_DEVICE_TYPE, ACC_DEVICE_NUM=$ACC_DEVICE_NUM, ACC_NUM_GANGS=$ACC_NUM_GANGS, ACC_NUM_WORKERS=$ACC_NUM_WORKERS"
+fi
 #######################################################################
 #                      Create output file  
 #######################################################################

@@ -1,0 +1,691 @@
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(15): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(29): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(43): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(57): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(71): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(85): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(99): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(112): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(151): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(173): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(195): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(215): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(235): warning: variable "ret" was set but never used
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(255): warning: variable "ret" was set but never used
+
+./all_kernels.sh: line 80: 10288 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10297 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10305 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10377 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10385 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10393 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10401 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10408 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10416 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10426 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10434 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10463 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10487 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10556 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10565 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10573 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10580 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10589 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10597 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10605 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10614 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10622 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10629 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10637 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10645 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10675 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10761 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10769 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10777 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10785 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10793 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10801 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10809 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10818 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10826 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10834 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10843 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10850 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10872 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10903 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10910 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10918 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10944 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10951 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10959 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10967 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 10975 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11045 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11054 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11061 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11072 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11080 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11108 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11171 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11179 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11186 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11209 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11217 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11225 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11296 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11303 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11311 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11319 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11328 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11337 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11346 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11392 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11399 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11407 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 80: 11414 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11429 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11499 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11507 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11514 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11523 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11532 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11539 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11547 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11554 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11584 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11724 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11733 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11748 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11756 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11790 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11848 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11856 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11863 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11871 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11879 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11888 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11896 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11904 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11949 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11956 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11965 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 11974 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 12044 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 12053 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 69: 12062 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12069 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12080 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12089 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12096 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12104 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12111 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12141 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12228 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12236 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12243 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12251 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12261 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12268 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12277 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12284 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12294 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12303 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12311 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12319 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12328 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12375 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12382 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12392 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12399 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12408 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12416 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12424 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12495 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12503 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 111: 12512 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12520 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12528 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12535 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12565 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12589 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12597 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12605 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12614 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12684 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12692 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12700 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12708 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12716 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12725 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12732 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12741 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12751 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12779 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12805 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12813 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12820 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12891 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12901 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12908 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12917 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12925 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12933 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12941 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12950 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 153: 12958 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 12968 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13013 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13020 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13030 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13038 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13046 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13116 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13124 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13131 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13141 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13150 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13157 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13165 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13180 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13210 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13297 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13305 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13312 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13321 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13329 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13338 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13346 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13354 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13362 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13370 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13380 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13387 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13395 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13440 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./parallelism.sh: line 195: 13448 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+CT_OMP_TARGET::AllocateData(unsigned long, unsigned long, unsigned long, unsigned long):
+    263, #omp target teams num_teams(pes)
+        263, Generating Tesla and Multicore code
+             Generating "nvkernel__ZN13CT_OMP_TARGET12AllocateDataEmmmm_F1L263_1" GPU kernel
+"/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OMP_TARGET/CT_OMP_TARGET_IMPL.c", line 17: warning: variable "ret" was set but never used
+        uint64_t i = 0, ret;
+                        ^
+
+"/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OMP_TARGET/CT_OMP_TARGET_IMPL.c", line 53: warning: variable "ret" was set but never used
+        uint64_t i = 0, ret;
+                        ^
+
+"/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OMP_TARGET/CT_OMP_TARGET_IMPL.c", line 90: warning: variable "ret" was set but never used
+        uint64_t i = 0, ret;
+                        ^
+
+"/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OMP_TARGET/CT_OMP_TARGET_IMPL.c", line 131: warning: variable "ret" was set but never used
+        uint64_t ret;
+                 ^
+
+"/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OMP_TARGET/CT_OMP_TARGET_IMPL.c", line 185: warning: variable "ret" was set but never used
+        uint64_t i = 0, ret;
+                        ^
+
+"/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OMP_TARGET/CT_OMP_TARGET_IMPL.c", line 224: warning: variable "ret" was set but never used
+        uint64_t ret;
+                 ^
+
+"/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OMP_TARGET/CT_OMP_TARGET_IMPL.c", line 276: warning: variable "ret" was set but never used
+        uint64_t ret;
+                 ^
+
+RAND_ADD:
+     14, #omp target teams num_teams(pes)
+         14, Generating Tesla and Multicore code
+             Generating "nvkernel_RAND_ADD_F1L14_1" GPU kernel
+         16, #omp parallel
+           24, Loop parallelized across threads, schedule(static)
+           30, Barrier
+STRIDE1_ADD:
+     50, #omp target teams num_teams(pes)
+         50, Generating Tesla and Multicore code
+             Generating "nvkernel_STRIDE1_ADD_F1L50_4" GPU kernel
+         52, #omp parallel
+           60, Loop parallelized across threads, schedule(static)
+           66, Barrier
+STRIDEN_ADD:
+     87, #omp target teams num_teams(pes)
+         87, Generating Tesla and Multicore code
+             Generating "nvkernel_STRIDEN_ADD_F1L87_7" GPU kernel
+         89, #omp parallel
+           97, Loop parallelized across threads, schedule(static)
+          103, Barrier
+SG_ADD:
+    123, #omp target teams num_teams(pes)
+        123, Generating Tesla and Multicore code
+             Generating "nvkernel_SG_ADD_F1L123_10" GPU kernel
+        125, #omp parallel
+          138, Loop parallelized across threads, schedule(static)
+          162, Barrier
+CENTRAL_ADD:
+    182, #omp target teams num_teams(pes)
+        182, Generating Tesla and Multicore code
+             Generating "nvkernel_CENTRAL_ADD_F1L182_13" GPU kernel
+        184, #omp parallel
+          191, Loop parallelized across threads, schedule(static)
+          197, Barrier
+SCATTER_ADD:
+    217, #omp target teams num_teams(pes)
+        217, Generating Tesla and Multicore code
+             Generating "nvkernel_SCATTER_ADD_F1L217_16" GPU kernel
+        219, #omp parallel
+          231, Loop parallelized across threads, schedule(static)
+          249, Barrier
+GATHER_ADD:
+    269, #omp target teams num_teams(pes)
+        269, Generating Tesla and Multicore code
+             Generating "nvkernel_GATHER_ADD_F1L269_19" GPU kernel
+        271, #omp parallel
+          283, Loop parallelized across threads, schedule(static)
+          301, Barrier
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0xf8b610
+argument memory for queue 32 device:0x1491d7200000 host:0x1491d7400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0xf8b610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x148a2c000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x148a2c000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x1491c2000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x1491c2000000
+./all_kernels.sh: line 80: 13768 Killed                  $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0xd5b610
+argument memory for queue 32 device:0x1532f3200000 host:0x1532f3400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0xd5b610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x152b48000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x152b48000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x1532de000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x1532de000000
+./all_kernels.sh: line 80: 13779 Killed                  $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0xbb5610
+argument memory for queue 32 device:0x14b633200000 host:0x14b633400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0xbb5610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x14ae88000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x14ae88000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x14b61e000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x14b61e000000
+./all_kernels.sh: line 80: 14607 Killed                  $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0x2281610
+argument memory for queue 32 device:0x14a427200000 host:0x14a427400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0x2281610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x149c7c000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x149c7c000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x14a412000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x14a412000000
+./all_kernels.sh: line 80: 15422 Killed                  $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0xa34610
+argument memory for queue 32 device:0x1516e7200000 host:0x1516e7400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0xa34610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x150f3c000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x150f3c000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x1516d2000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x1516d2000000
+./all_kernels.sh: line 80: 16310 Killed                  $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0x2709610
+argument memory for queue 32 device:0x15129f200000 host:0x15129f400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0x2709610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x150af4000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x150af4000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x15128a000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x15128a000000
+./all_kernels.sh: line 80: 17141 Killed                  $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0x1872610
+argument memory for queue 32 device:0x145a63200000 host:0x145a63400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0x1872610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x1452b8000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x1452b8000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x145a4e000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x145a4e000000
+./all_kernels.sh: line 80: 18142 Killed                  $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0x29ab610
+argument memory for queue 32 device:0x14bf03200000 host:0x14bf03400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0x29ab610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x14b758000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x14b758000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x14beee000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x14beee000000
+./all_kernels.sh: line 80: 18156 Killed                  $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0x1732610
+argument memory for queue 32 device:0x154f43200000 host:0x154f43400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0x1732610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x154798000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x154798000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x154f2e000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x154f2e000000
+./all_kernels.sh: line 80: 18938 Killed                  $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0xe23610
+argument memory for queue 32 device:0x148473200000 host:0x148473400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0xe23610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x147cc8000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x147cc8000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x14845e000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x14845e000000
+./all_kernels.sh: line 80: 19854 Killed                  $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0x166e610
+argument memory for queue 32 device:0x147c03200000 host:0x147c03400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0x166e610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x147458000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x147458000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x147bee000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x147bee000000
+./all_kernels.sh: line 80: 19865 Killed                  $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0x2361610
+argument memory for queue 32 device:0x150493200000 host:0x150493400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0x2361610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x14fce8000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x14fce8000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x15047e000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x15047e000000
+./all_kernels.sh: line 80: 20799 Killed                  $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0x15e8610
+argument memory for queue 32 device:0x15054f200000 host:0x15054f400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0x15e8610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x14fda4000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x14fda4000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x15053a000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x15053a000000
+./all_kernels.sh: line 80: 20811 Killed                  $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0x21f8610
+argument memory for queue 32 device:0x14fdd3200000 host:0x14fdd3400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0x21f8610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x14f628000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x14f628000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x14fdbe000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x14fdbe000000
+./all_kernels.sh: line 80: 21588 Killed                  $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0x1e2b610
+argument memory for queue 32 device:0x152497200000 host:0x152497400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0x1e2b610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x151cec000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x151cec000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x152482000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x152482000000
+./all_kernels.sh: line 80: 21600 Killed                  $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0x1f48610
+argument memory for queue 32 device:0x154fb3200000 host:0x154fb3400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0x1f48610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x154808000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x154808000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x154f9e000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x154f9e000000
+./all_kernels.sh: line 80: 22625 Killed                  $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE
+loading profile library libaccnotify.so
+ACC: detected 1 CUDA devices
+cuda_initdev thread:0 data.default_device_num:0 pdata.cuda.default_device_num:0
+ACC: device[1] is NVIDIA CUDA device 0 compute capability 8.0
+ACC: initialized 1 CUDA devices
+ACC: device[2] is PGI native
+pinitialize (threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, setting api_context=(nil)
+cuda_init_device(threadid=1, device 0) dindex=1, new api_context=0x165c610
+argument memory for queue 32 device:0x146bd7200000 host:0x146bd7400000
+curr_devid for threadid=1 is 1
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1)
+cuda_init_device thread:1 data.default_device_num:1 pdata.cuda.default_device_num:1
+cuda_init_device(threadid=1, device 0) dindex=1, api_context=0x165c610
+Loading 3308576 bytes from pgi_cuda_loc
+allocate device memory 0x14642c000000(32089730048B,threadid=1)
+pgi_uacc_alloc(size=32089730048,devid=1,threadid=1) returns 0x14642c000000
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1)
+allocate device memory 0x146bc2000000(132000256B,threadid=1)
+pgi_uacc_alloc(size=132000000,devid=1,threadid=1) returns 0x146bc2000000
+slurmstepd: error: *** STEP 16128611.0 ON gpu-20-14 CANCELLED AT 2025-03-01T13:42:25 ***
+slurmstepd: error: Detected 207 oom_kill events in StepId=16128611.0. Some of the step tasks have been OOM Killed.
