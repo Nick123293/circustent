@@ -1,0 +1,1900 @@
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:06:03 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 9.10759e-05
+ Giga AMOs/sec (GAMS) : 87.8388
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:06:58 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.000102997
+ Giga AMOs/sec (GAMS) : 77.6723
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:07:54 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 9.39369e-05
+ Giga AMOs/sec (GAMS) : 85.1635
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:08:49 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.129563
+ Giga AMOs/sec (GAMS) : 0.246984
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:09:44 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.000123978
+ Giga AMOs/sec (GAMS) : 193.583
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:10:40 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.144426
+ Giga AMOs/sec (GAMS) : 0.166175
+================================================
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:11:35 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 8.29697e-05
+ Giga AMOs/sec (GAMS) : 96.4208
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:12:30 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 8.79765e-05
+ Giga AMOs/sec (GAMS) : 90.9334
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:13:24 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.000100136
+ Giga AMOs/sec (GAMS) : 79.8915
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:14:19 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.129624
+ Giga AMOs/sec (GAMS) : 0.246868
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:15:15 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.000100136
+ Giga AMOs/sec (GAMS) : 239.675
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:16:10 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.144456
+ Giga AMOs/sec (GAMS) : 0.16614
+================================================
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:17:05 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 8.51154e-05
+ Giga AMOs/sec (GAMS) : 93.99
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:18:00 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 8.41618e-05
+ Giga AMOs/sec (GAMS) : 95.055
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:18:55 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 9.48906e-05
+ Giga AMOs/sec (GAMS) : 84.3076
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:19:50 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.129638
+ Giga AMOs/sec (GAMS) : 0.246841
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:20:45 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.000102997
+ Giga AMOs/sec (GAMS) : 233.017
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:21:40 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.14449
+ Giga AMOs/sec (GAMS) : 0.166101
+================================================
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:22:35 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 8.41618e-05
+ Giga AMOs/sec (GAMS) : 95.055
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:23:31 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.000119209
+ Giga AMOs/sec (GAMS) : 67.1089
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:24:26 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 9.60827e-05
+ Giga AMOs/sec (GAMS) : 83.2616
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:25:22 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.129628
+ Giga AMOs/sec (GAMS) : 0.24686
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:26:17 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.000111103
+ Giga AMOs/sec (GAMS) : 216.016
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:27:13 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.144476
+ Giga AMOs/sec (GAMS) : 0.166118
+================================================
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:28:07 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 8.29697e-05
+ Giga AMOs/sec (GAMS) : 96.4208
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:29:02 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 8.79765e-05
+ Giga AMOs/sec (GAMS) : 90.9334
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:29:57 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.000108957
+ Giga AMOs/sec (GAMS) : 73.4233
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:30:52 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.129451
+ Giga AMOs/sec (GAMS) : 0.247198
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:31:48 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.000108957
+ Giga AMOs/sec (GAMS) : 220.27
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:32:43 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 16
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.14441
+ Giga AMOs/sec (GAMS) : 0.166194
+================================================
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:33:38 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 9.20296e-05
+ Giga AMOs/sec (GAMS) : 173.857
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:34:34 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.000102997
+ Giga AMOs/sec (GAMS) : 155.345
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:35:29 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.000105143
+ Giga AMOs/sec (GAMS) : 152.174
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:36:23 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.137675
+ Giga AMOs/sec (GAMS) : 0.464864
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:37:19 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 9.70364e-05
+ Giga AMOs/sec (GAMS) : 494.66
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:38:14 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.151381
+ Giga AMOs/sec (GAMS) : 0.317081
+================================================
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:39:09 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 8.4877e-05
+ Giga AMOs/sec (GAMS) : 188.508
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:40:04 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 8.51154e-05
+ Giga AMOs/sec (GAMS) : 187.98
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:40:59 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 9.89437e-05
+ Giga AMOs/sec (GAMS) : 161.708
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:41:54 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.138071
+ Giga AMOs/sec (GAMS) : 0.46353
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:42:50 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.000102997
+ Giga AMOs/sec (GAMS) : 466.034
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:43:45 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.151543
+ Giga AMOs/sec (GAMS) : 0.316741
+================================================
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:44:41 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.000102043
+ Giga AMOs/sec (GAMS) : 156.796
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:45:36 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.000102043
+ Giga AMOs/sec (GAMS) : 156.796
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:46:32 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.000119925
+ Giga AMOs/sec (GAMS) : 133.417
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:47:27 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.138046
+ Giga AMOs/sec (GAMS) : 0.463613
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:48:22 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00010705
+ Giga AMOs/sec (GAMS) : 448.389
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:49:17 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.151487
+ Giga AMOs/sec (GAMS) : 0.316859
+================================================
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:50:13 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 8.10623e-05
+ Giga AMOs/sec (GAMS) : 197.379
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:51:08 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 8.17776e-05
+ Giga AMOs/sec (GAMS) : 195.653
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:52:04 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 9.799e-05
+ Giga AMOs/sec (GAMS) : 163.282
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:52:59 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.137999
+ Giga AMOs/sec (GAMS) : 0.463772
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:53:54 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.000102997
+ Giga AMOs/sec (GAMS) : 466.034
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:54:50 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.151439
+ Giga AMOs/sec (GAMS) : 0.316959
+================================================
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:55:45 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 9.39369e-05
+ Giga AMOs/sec (GAMS) : 170.327
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:56:41 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.000114918
+ Giga AMOs/sec (GAMS) : 139.23
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:57:37 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.000110865
+ Giga AMOs/sec (GAMS) : 144.32
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:58:33 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.138102
+ Giga AMOs/sec (GAMS) : 0.463426
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 19:59:29 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.000101089
+ Giga AMOs/sec (GAMS) : 474.827
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:00:24 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.151414
+ Giga AMOs/sec (GAMS) : 0.317012
+================================================
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:01:19 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 8.39233e-05
+ Giga AMOs/sec (GAMS) : 381.3
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:02:14 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 8.89301e-05
+ Giga AMOs/sec (GAMS) : 359.833
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:03:09 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.000106096
+ Giga AMOs/sec (GAMS) : 301.613
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:04:05 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.149884
+ Giga AMOs/sec (GAMS) : 0.853994
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:05:01 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.000102043
+ Giga AMOs/sec (GAMS) : 940.778
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:05:56 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.16089
+ Giga AMOs/sec (GAMS) : 0.596681
+================================================
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:06:51 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 7.89165e-05
+ Giga AMOs/sec (GAMS) : 405.492
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:07:47 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00011301
+ Giga AMOs/sec (GAMS) : 283.16
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:08:43 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.000104904
+ Giga AMOs/sec (GAMS) : 305.04
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:09:38 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.150094
+ Giga AMOs/sec (GAMS) : 0.852799
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:10:34 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 9.89437e-05
+ Giga AMOs/sec (GAMS) : 970.249
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:11:29 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.161044
+ Giga AMOs/sec (GAMS) : 0.59611
+================================================
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:12:25 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 7.9155e-05
+ Giga AMOs/sec (GAMS) : 404.27
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:13:21 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.000114918
+ Giga AMOs/sec (GAMS) : 278.46
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:14:16 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 9.58443e-05
+ Giga AMOs/sec (GAMS) : 333.875
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:15:12 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.149766
+ Giga AMOs/sec (GAMS) : 0.854667
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:16:07 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 9.89437e-05
+ Giga AMOs/sec (GAMS) : 970.249
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:17:02 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.161428
+ Giga AMOs/sec (GAMS) : 0.594692
+================================================
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:17:58 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 8.39233e-05
+ Giga AMOs/sec (GAMS) : 381.3
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:18:54 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.000102997
+ Giga AMOs/sec (GAMS) : 310.689
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:19:49 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 9.89437e-05
+ Giga AMOs/sec (GAMS) : 323.416
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:20:45 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.149963
+ Giga AMOs/sec (GAMS) : 0.853543
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:21:40 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.000104904
+ Giga AMOs/sec (GAMS) : 915.121
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:22:35 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.161111
+ Giga AMOs/sec (GAMS) : 0.595863
+================================================
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:23:31 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.000100851
+ Giga AMOs/sec (GAMS) : 317.3
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:24:27 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 9.10759e-05
+ Giga AMOs/sec (GAMS) : 351.355
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:25:23 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.000113964
+ Giga AMOs/sec (GAMS) : 280.79
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:26:19 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.149872
+ Giga AMOs/sec (GAMS) : 0.854063
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:27:14 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.000102997
+ Giga AMOs/sec (GAMS) : 932.068
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:28:09 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 64
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.16132
+ Giga AMOs/sec (GAMS) : 0.595091
+================================================
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:29:04 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.000109911
+ Giga AMOs/sec (GAMS) : 582.289
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:30:01 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 9.20296e-05
+ Giga AMOs/sec (GAMS) : 695.429
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:30:56 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 9.29832e-05
+ Giga AMOs/sec (GAMS) : 688.296
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:31:52 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.18289
+ Giga AMOs/sec (GAMS) : 1.39975
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:32:48 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.000103951
+ Giga AMOs/sec (GAMS) : 1847.03
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:33:44 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.194092
+ Giga AMOs/sec (GAMS) : 0.989221
+================================================
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:34:40 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00011301
+ Giga AMOs/sec (GAMS) : 566.32
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:35:36 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.000111103
+ Giga AMOs/sec (GAMS) : 576.042
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:36:33 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.000133038
+ Giga AMOs/sec (GAMS) : 481.067
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:37:29 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.182344
+ Giga AMOs/sec (GAMS) : 1.40394
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:38:25 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.000117064
+ Giga AMOs/sec (GAMS) : 1640.14
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:39:21 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.195464
+ Giga AMOs/sec (GAMS) : 0.982279
+================================================
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:40:17 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 8.10623e-05
+ Giga AMOs/sec (GAMS) : 789.516
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:41:13 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 9.98974e-05
+ Giga AMOs/sec (GAMS) : 640.657
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:42:09 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.000138998
+ Giga AMOs/sec (GAMS) : 460.438
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:43:06 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.181402
+ Giga AMOs/sec (GAMS) : 1.41123
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:44:02 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00011301
+ Giga AMOs/sec (GAMS) : 1698.96
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:44:58 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.253796
+ Giga AMOs/sec (GAMS) : 0.756514
+================================================
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:45:58 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00011301
+ Giga AMOs/sec (GAMS) : 566.32
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:46:54 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 8.51154e-05
+ Giga AMOs/sec (GAMS) : 751.92
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:47:50 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 9.5129e-05
+ Giga AMOs/sec (GAMS) : 672.771
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:48:45 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.182009
+ Giga AMOs/sec (GAMS) : 1.40652
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:49:42 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.000118971
+ Giga AMOs/sec (GAMS) : 1613.84
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:50:38 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.194029
+ Giga AMOs/sec (GAMS) : 0.989542
+================================================
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:51:34 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 8.08239e-05
+ Giga AMOs/sec (GAMS) : 791.845
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:52:31 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 8.4877e-05
+ Giga AMOs/sec (GAMS) : 754.032
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:53:26 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.000128984
+ Giga AMOs/sec (GAMS) : 496.184
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:54:23 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.182286
+ Giga AMOs/sec (GAMS) : 1.40439
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:55:20 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.000111103
+ Giga AMOs/sec (GAMS) : 1728.13
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  08-03-25 AT 20:56:16 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE is not set, using default.
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM is not set, using default.
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 128
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.194595
+ Giga AMOs/sec (GAMS) : 0.986664
+================================================
+
+
+
+
+
+
+
+
+
+
+
+

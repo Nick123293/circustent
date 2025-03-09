@@ -1,0 +1,599 @@
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:53:33 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.000216961
+ Giga AMOs/sec (GAMS) : 73.746
+================================================
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:54:29 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:54:29 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.000212908
+ Giga AMOs/sec (GAMS) : 75.1499
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:55:25 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:55:25 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:56:03 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:56:03 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:56:23 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:56:23 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:56:40 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:56:40 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:56:52 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:56:52 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:57:02 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:57:02 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:57:31 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:57:31 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:57:39 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:57:39 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:57:47 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:57:47 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:57:55 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:57:55 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:58:13 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:58:13 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:58:21 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:58:21 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:58:36 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:58:36 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:58:44 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:58:44 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:59:03 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:59:03 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:59:09 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:59:09 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:59:18 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:59:18 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:59:24 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:59:24 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:59:31 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:59:31 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:59:43 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:59:43 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:59:51 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:59:51 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 13:59:58 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 13:59:58 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 14:00:04 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 14:00:04 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 14:00:10 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 14:00:10 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 14:00:16 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 14:00:16 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 14:00:24 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 14:00:24 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 14:00:30 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 14:00:30 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the RAND_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 14:00:37 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 14:00:37 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.000194073
+ Giga AMOs/sec (GAMS) : 82.4433
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 14:01:33 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 14:01:33 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+RUNNING WITH NUM_GANGS = 32
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.000231028
+ Giga AMOs/sec (GAMS) : 69.2558
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 14:02:30 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the CENTRAL_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 14:02:30 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the CENTRAL_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 14:02:55 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 14:02:55 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SG_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 14:03:01 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 14:03:01 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the SCATTER_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 14:03:06 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenACC impl...
+                  07-03-25 AT 14:03:06 
+------------------------------------------------------
+CT_OPENACC::SetDevice : ACC_DEVICE_TYPE set to nvidia
+CT_OPENACC::SetDevice : ACC_DEVICE_NUM set to 0
+Running on Vendor: NVIDIA Device: NVIDIA A100-PCIE-40GB
+
+
+------------------------------------------------------
+  Running the GATHER_CAS kernel using the OpenACC impl...
+                  07-03-25 AT 14:03:16 
+------------------------------------------------------
+ERROR : CAS IMPLEMENTATION NOT SUPPORTED IN CT_OPENACC
+
+

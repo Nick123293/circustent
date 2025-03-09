@@ -10,8 +10,12 @@ HLINE="------------------------------------------------------"
 #######################################################################
 BACKENDS="CUDA OpenMP"
 
-IMPL="CUDA"
-# IMPL="OpenMP"
+IMPL=$1
+if [[ -z "$IMPL" ]]; then
+  echo "Error: IMPL argument is required."
+  echo "Usage: $0 <IMPL> [blocks] [threads] [iters] [mem_size]"
+  exit 1
+fi
 
 #######################################################################
 #                 Edit the run run configuration

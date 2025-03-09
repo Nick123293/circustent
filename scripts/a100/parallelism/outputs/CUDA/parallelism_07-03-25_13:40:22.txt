@@ -1,0 +1,1109 @@
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:40:22 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00175905
+ Giga AMOs/sec (GAMS) : 4.5479
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:41:20 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.000441074
+ Giga AMOs/sec (GAMS) : 18.1375
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:42:18 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.000442028
+ Giga AMOs/sec (GAMS) : 18.0984
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:43:16 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.0033958
+ Giga AMOs/sec (GAMS) : 9.42342
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:44:15 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00225711
+ Giga AMOs/sec (GAMS) : 10.6331
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:45:13 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00343585
+ Giga AMOs/sec (GAMS) : 6.98517
+================================================
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:46:11 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00175405
+ Giga AMOs/sec (GAMS) : 4.56089
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:47:09 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.000446081
+ Giga AMOs/sec (GAMS) : 17.934
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:48:07 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.000449896
+ Giga AMOs/sec (GAMS) : 17.7819
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:49:05 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.00338697
+ Giga AMOs/sec (GAMS) : 9.44796
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:50:03 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00423503
+ Giga AMOs/sec (GAMS) : 5.66702
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:51:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00343704
+ Giga AMOs/sec (GAMS) : 6.98275
+================================================
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:51:59 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+------------------------------------------------
+            CUDA Device Properties
+------------------------------------------------
+Number of CUDA enabled devices detected: 3
+Target Device Details:
+Device Name: NVIDIA A100-PCIE-40GB
+Global Memory (bytes): 42505273344
+Compute Capability: 8.0
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00174904
+ Giga AMOs/sec (GAMS) : 4.57394
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 16 blocks, 256 threads per block
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 32 blocks, 256 threads per block
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 64 blocks, 256 threads per block
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the CUDA impl...
+                  07-03-25 AT 13:53:01 
+------------------------------------------------------
+Running with 128 blocks, 256 threads per block
+
+
+
+
+
+
+
+
+
+
+
+

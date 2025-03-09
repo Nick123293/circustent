@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OPENACC/CT_OPENACC_IMPL.c
+openacc.h
+-
+stdint.h
+-
+

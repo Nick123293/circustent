@@ -1,0 +1,940 @@
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:06 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  07-03-25 AT 13:53:07 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+
+
+
+
+
+
+
+
+
+
+
+

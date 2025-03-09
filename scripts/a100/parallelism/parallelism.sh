@@ -74,7 +74,11 @@ for i in {1..5}; do
 
         if [[ "$IMPL" == "CUDA" ]]; then
             echo "Running with $BLOCKS blocks, $THREADS threads per block" >> $OUTPUT_FILE
-            $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+            if [[ $BENCH == "STRIDEN_ADD" || $BENCH == "STRIDEN_CAS" ]]; then
+                $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS --stride 10 >> $OUTPUT_FILE
+            else
+                $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+            fi
             echo >> $OUTPUT_FILE
             echo >> $OUTPUT_FILE
         elif [[ "$IMPL" == "OpenMP" ]]; then

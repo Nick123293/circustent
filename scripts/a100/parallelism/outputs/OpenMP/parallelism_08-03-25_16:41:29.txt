@@ -1,0 +1,2860 @@
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:41:29 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x147738000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x147ece000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting RAND_ADD kernel with 500000 iterations and 16 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00237584
+ Giga AMOs/sec (GAMS) : 3.36723
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:42:24 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x149278000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x149a0e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting STRIDE1_ADD kernel with 500000 iterations and 16 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00107408
+ Giga AMOs/sec (GAMS) : 7.44826
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:43:20 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14a1c6000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14a95c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting STRIDEN_ADD kernel with 500000 iterations, 16 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.00111294
+ Giga AMOs/sec (GAMS) : 7.18818
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:44:16 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x147ac6000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14825c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting SG_ADD kernel with 500000 iterations and 16 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.00392199
+ Giga AMOs/sec (GAMS) : 8.15913
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:45:11 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x147568000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x147cfe000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting SCATTER_ADD kernel with 500000 iterations and 16 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00323081
+ Giga AMOs/sec (GAMS) : 7.42848
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:46:06 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x151ce0000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x152476000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting GATHER_ADD kernel with 500000 iterations and 16 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00302911
+ Giga AMOs/sec (GAMS) : 7.92312
+================================================
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:47:00 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x151746000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x151edc000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting RAND_ADD kernel with 500000 iterations and 16 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00238204
+ Giga AMOs/sec (GAMS) : 3.35847
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:47:55 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14d308000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14da9e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting STRIDE1_ADD kernel with 500000 iterations and 16 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00105691
+ Giga AMOs/sec (GAMS) : 7.56924
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:48:50 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14ccd8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14d46e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting STRIDEN_ADD kernel with 500000 iterations, 16 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.00107384
+ Giga AMOs/sec (GAMS) : 7.44992
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:49:45 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x146528000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x146cbe000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting SG_ADD kernel with 500000 iterations and 16 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.00392318
+ Giga AMOs/sec (GAMS) : 8.15665
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:50:40 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14a598000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14ad2e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting SCATTER_ADD kernel with 500000 iterations and 16 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00323105
+ Giga AMOs/sec (GAMS) : 7.42793
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:51:35 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14f138000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14f8ce000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting GATHER_ADD kernel with 500000 iterations and 16 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00304317
+ Giga AMOs/sec (GAMS) : 7.8865
+================================================
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:52:30 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14bbe6000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14c37c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting RAND_ADD kernel with 500000 iterations and 16 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00237393
+ Giga AMOs/sec (GAMS) : 3.36993
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:53:25 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x1503f6000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x150b8c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting STRIDE1_ADD kernel with 500000 iterations and 16 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00107408
+ Giga AMOs/sec (GAMS) : 7.44826
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:54:21 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14d346000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14dadc000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting STRIDEN_ADD kernel with 500000 iterations, 16 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.00107598
+ Giga AMOs/sec (GAMS) : 7.43506
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:55:16 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14b1f8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14b98e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting SG_ADD kernel with 500000 iterations and 16 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.00391793
+ Giga AMOs/sec (GAMS) : 8.16757
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:56:11 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14aa66000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14b1fc000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting SCATTER_ADD kernel with 500000 iterations and 16 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.003227
+ Giga AMOs/sec (GAMS) : 7.43726
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:57:05 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x145fa0000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x146736000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting GATHER_ADD kernel with 500000 iterations and 16 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00307012
+ Giga AMOs/sec (GAMS) : 7.81729
+================================================
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:58:02 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14f358000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14faee000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting RAND_ADD kernel with 500000 iterations and 16 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00237894
+ Giga AMOs/sec (GAMS) : 3.36284
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:58:57 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14d8b0000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14e046000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting STRIDE1_ADD kernel with 500000 iterations and 16 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00106406
+ Giga AMOs/sec (GAMS) : 7.51836
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 16:59:52 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x1520d6000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x15286c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting STRIDEN_ADD kernel with 500000 iterations, 16 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.0010941
+ Giga AMOs/sec (GAMS) : 7.31193
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:00:47 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x1502b8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x150a4e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting SG_ADD kernel with 500000 iterations and 16 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.00391698
+ Giga AMOs/sec (GAMS) : 8.16956
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:01:42 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14db68000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14e2fe000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting SCATTER_ADD kernel with 500000 iterations and 16 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00323892
+ Giga AMOs/sec (GAMS) : 7.40989
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:02:38 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x1502a8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x150a3e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting GATHER_ADD kernel with 500000 iterations and 16 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00303602
+ Giga AMOs/sec (GAMS) : 7.90508
+================================================
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:03:33 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14c616000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14cdac000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting RAND_ADD kernel with 500000 iterations and 16 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00239992
+ Giga AMOs/sec (GAMS) : 3.33344
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:04:28 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x154818000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x154fae000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting STRIDE1_ADD kernel with 500000 iterations and 16 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00107288
+ Giga AMOs/sec (GAMS) : 7.45654
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:05:24 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14d330000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14dac6000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting STRIDEN_ADD kernel with 500000 iterations, 16 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.00111413
+ Giga AMOs/sec (GAMS) : 7.18049
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:06:20 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x145c78000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14640e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting SG_ADD kernel with 500000 iterations and 16 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.00392604
+ Giga AMOs/sec (GAMS) : 8.15071
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:07:15 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x145c16000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1463ac000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting SCATTER_ADD kernel with 500000 iterations and 16 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00325608
+ Giga AMOs/sec (GAMS) : 7.37082
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:08:11 
+------------------------------------------------------
+Running with 16 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x147ae0000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x148276000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 16
+Starting GATHER_ADD kernel with 500000 iterations and 16 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00307393
+ Giga AMOs/sec (GAMS) : 7.80759
+================================================
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:09:06 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x1463d8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x146b6e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting RAND_ADD kernel with 500000 iterations and 32 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00360417
+ Giga AMOs/sec (GAMS) : 4.4393
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:10:01 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x1497b8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x149f4e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting STRIDE1_ADD kernel with 500000 iterations and 32 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00116205
+ Giga AMOs/sec (GAMS) : 13.7687
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:10:56 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x152a70000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x153206000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting STRIDEN_ADD kernel with 500000 iterations, 32 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.00114918
+ Giga AMOs/sec (GAMS) : 13.923
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:11:52 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x146138000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1468ce000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting SG_ADD kernel with 500000 iterations and 32 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.00438905
+ Giga AMOs/sec (GAMS) : 14.5818
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:12:47 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x154a10000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1551a6000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting SCATTER_ADD kernel with 500000 iterations and 32 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.0040381
+ Giga AMOs/sec (GAMS) : 11.8868
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:13:43 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x153960000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1540f6000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting GATHER_ADD kernel with 500000 iterations and 32 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00395417
+ Giga AMOs/sec (GAMS) : 12.1391
+================================================
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:14:38 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14d3a0000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14db36000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting RAND_ADD kernel with 500000 iterations and 32 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00361395
+ Giga AMOs/sec (GAMS) : 4.42729
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:15:33 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14d106000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14d89c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting STRIDE1_ADD kernel with 500000 iterations and 32 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.001127
+ Giga AMOs/sec (GAMS) : 14.1969
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:16:28 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x1542a8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x154a3e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting STRIDEN_ADD kernel with 500000 iterations, 32 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.00113702
+ Giga AMOs/sec (GAMS) : 14.0719
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:17:23 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14f5f6000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14fd8c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting SG_ADD kernel with 500000 iterations and 32 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.00439191
+ Giga AMOs/sec (GAMS) : 14.5723
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:18:18 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x153fb6000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x15474c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting SCATTER_ADD kernel with 500000 iterations and 32 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00406218
+ Giga AMOs/sec (GAMS) : 11.8163
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:19:14 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14aac8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14b25e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting GATHER_ADD kernel with 500000 iterations and 32 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00395894
+ Giga AMOs/sec (GAMS) : 12.1245
+================================================
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:20:12 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x150776000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x150f0c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting RAND_ADD kernel with 500000 iterations and 32 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00358582
+ Giga AMOs/sec (GAMS) : 4.46203
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:21:07 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x1504a8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x150c3e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting STRIDE1_ADD kernel with 500000 iterations and 32 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00112295
+ Giga AMOs/sec (GAMS) : 14.2482
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:22:02 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x146898000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14702e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting STRIDEN_ADD kernel with 500000 iterations, 32 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.0011301
+ Giga AMOs/sec (GAMS) : 14.158
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:22:58 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14e0f8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14e88e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting SG_ADD kernel with 500000 iterations and 32 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.00442886
+ Giga AMOs/sec (GAMS) : 14.4507
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:23:54 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14c310000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14caa6000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting SCATTER_ADD kernel with 500000 iterations and 32 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00407314
+ Giga AMOs/sec (GAMS) : 11.7845
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:24:49 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x152726000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x152ebc000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting GATHER_ADD kernel with 500000 iterations and 32 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00398707
+ Giga AMOs/sec (GAMS) : 12.0389
+================================================
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:25:45 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14eef8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14f68e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting RAND_ADD kernel with 500000 iterations and 32 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00360489
+ Giga AMOs/sec (GAMS) : 4.43842
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:26:40 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x1512b8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x151a4e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting STRIDE1_ADD kernel with 500000 iterations and 32 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00112796
+ Giga AMOs/sec (GAMS) : 14.1849
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:27:35 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x1539a6000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x15413c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting STRIDEN_ADD kernel with 500000 iterations, 32 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.00117111
+ Giga AMOs/sec (GAMS) : 13.6622
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:28:31 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x150b66000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1512fc000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting SG_ADD kernel with 500000 iterations and 32 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.00440598
+ Giga AMOs/sec (GAMS) : 14.5257
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:29:26 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x1468e6000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14707c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting SCATTER_ADD kernel with 500000 iterations and 32 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00424099
+ Giga AMOs/sec (GAMS) : 11.3181
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:30:22 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14ad08000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14b49e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting GATHER_ADD kernel with 500000 iterations and 32 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00406909
+ Giga AMOs/sec (GAMS) : 11.7962
+================================================
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:31:17 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x154290000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x154a26000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting RAND_ADD kernel with 500000 iterations and 32 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00359583
+ Giga AMOs/sec (GAMS) : 4.4496
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:32:12 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x151c02000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x152398000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting STRIDE1_ADD kernel with 500000 iterations and 32 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00115013
+ Giga AMOs/sec (GAMS) : 13.9115
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:33:08 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x152f34000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1536ca000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting STRIDEN_ADD kernel with 500000 iterations, 32 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.00115991
+ Giga AMOs/sec (GAMS) : 13.7942
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:34:03 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x147d60000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1484f6000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting SG_ADD kernel with 500000 iterations and 32 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.00439906
+ Giga AMOs/sec (GAMS) : 14.5486
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:34:58 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14b008000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14b79e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting SCATTER_ADD kernel with 500000 iterations and 32 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00405002
+ Giga AMOs/sec (GAMS) : 11.8518
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:35:53 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x1460e6000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14687c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 32
+Starting GATHER_ADD kernel with 500000 iterations and 32 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00396705
+ Giga AMOs/sec (GAMS) : 12.0997
+================================================
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:36:48 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x149358000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x149aee000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting RAND_ADD kernel with 500000 iterations and 64 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00675488
+ Giga AMOs/sec (GAMS) : 4.73732
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:37:43 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x146bc0000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x147356000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting STRIDE1_ADD kernel with 500000 iterations and 64 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.0012331
+ Giga AMOs/sec (GAMS) : 25.9508
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:38:39 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14e416000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14ebac000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting STRIDEN_ADD kernel with 500000 iterations, 64 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.00121403
+ Giga AMOs/sec (GAMS) : 26.3585
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:39:35 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14d508000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14dc9e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting SG_ADD kernel with 500000 iterations and 64 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.00710106
+ Giga AMOs/sec (GAMS) : 18.0255
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:40:31 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x146366000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x146afc000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting SCATTER_ADD kernel with 500000 iterations and 64 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00743508
+ Giga AMOs/sec (GAMS) : 12.9118
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:41:26 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14ca56000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14d1ec000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting GATHER_ADD kernel with 500000 iterations and 64 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00737286
+ Giga AMOs/sec (GAMS) : 13.0207
+================================================
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:42:21 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14b798000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14bf2e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting RAND_ADD kernel with 500000 iterations and 64 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.0067358
+ Giga AMOs/sec (GAMS) : 4.75073
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:43:16 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x153de8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x15457e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting STRIDE1_ADD kernel with 500000 iterations and 64 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00122595
+ Giga AMOs/sec (GAMS) : 26.1022
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:44:12 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14e380000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14eb16000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting STRIDEN_ADD kernel with 500000 iterations, 64 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.00121498
+ Giga AMOs/sec (GAMS) : 26.3379
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:45:08 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14f8a8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x15003e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting SG_ADD kernel with 500000 iterations and 64 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.00700903
+ Giga AMOs/sec (GAMS) : 18.2622
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:46:03 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14d0e8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14d87e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting SCATTER_ADD kernel with 500000 iterations and 64 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00738001
+ Giga AMOs/sec (GAMS) : 13.0081
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:46:59 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x154590000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x154d26000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting GATHER_ADD kernel with 500000 iterations and 64 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.0074389
+ Giga AMOs/sec (GAMS) : 12.9051
+================================================
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:47:55 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14aed6000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14b66c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting RAND_ADD kernel with 500000 iterations and 64 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00676298
+ Giga AMOs/sec (GAMS) : 4.73164
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:48:50 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x148dd0000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x149566000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting STRIDE1_ADD kernel with 500000 iterations and 64 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00122404
+ Giga AMOs/sec (GAMS) : 26.1429
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:49:47 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x151bb6000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x15234c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting STRIDEN_ADD kernel with 500000 iterations, 64 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.00123215
+ Giga AMOs/sec (GAMS) : 25.9709
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:50:42 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14c0b0000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14c846000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting SG_ADD kernel with 500000 iterations and 64 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.00706291
+ Giga AMOs/sec (GAMS) : 18.1228
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:51:39 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x150508000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x150c9e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting SCATTER_ADD kernel with 500000 iterations and 64 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00740218
+ Giga AMOs/sec (GAMS) : 12.9691
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:52:34 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x1511b8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x15194e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting GATHER_ADD kernel with 500000 iterations and 64 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00736904
+ Giga AMOs/sec (GAMS) : 13.0275
+================================================
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:53:30 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14ed50000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14f4e6000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting RAND_ADD kernel with 500000 iterations and 64 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00674391
+ Giga AMOs/sec (GAMS) : 4.74502
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:54:25 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x151836000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x151fcc000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting STRIDE1_ADD kernel with 500000 iterations and 64 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00120616
+ Giga AMOs/sec (GAMS) : 26.5305
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:55:21 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x145ba0000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x146336000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting STRIDEN_ADD kernel with 500000 iterations, 64 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.00124383
+ Giga AMOs/sec (GAMS) : 25.727
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:56:16 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x1495e8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x149d7e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting SG_ADD kernel with 500000 iterations and 64 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.00704098
+ Giga AMOs/sec (GAMS) : 18.1793
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:57:12 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x148426000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x148bbc000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting SCATTER_ADD kernel with 500000 iterations and 64 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00744414
+ Giga AMOs/sec (GAMS) : 12.896
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:58:07 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x1543b8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x154b4e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting GATHER_ADD kernel with 500000 iterations and 64 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00744295
+ Giga AMOs/sec (GAMS) : 12.8981
+================================================
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:59:03 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x152b78000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x15330e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting RAND_ADD kernel with 500000 iterations and 64 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.00673819
+ Giga AMOs/sec (GAMS) : 4.74905
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 17:59:58 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14e930000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14f0c6000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting STRIDE1_ADD kernel with 500000 iterations and 64 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00120306
+ Giga AMOs/sec (GAMS) : 26.5988
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:00:53 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x145060000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1457f6000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting STRIDEN_ADD kernel with 500000 iterations, 64 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.00120807
+ Giga AMOs/sec (GAMS) : 26.4886
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:01:49 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x154a66000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1551fc000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting SG_ADD kernel with 500000 iterations and 64 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.007056
+ Giga AMOs/sec (GAMS) : 18.1406
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:02:44 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x147646000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x147ddc000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting SCATTER_ADD kernel with 500000 iterations and 64 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.00739312
+ Giga AMOs/sec (GAMS) : 12.985
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:03:40 
+------------------------------------------------------
+Running with 64 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x146288000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x146a1e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 64
+Starting GATHER_ADD kernel with 500000 iterations and 64 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.00738907
+ Giga AMOs/sec (GAMS) : 12.9922
+================================================
+
+
+
+
+
+
+
+
+
+
+
+
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:04:35 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x150cb6000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x15051c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting RAND_ADD kernel with 500000 iterations and 128 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.0134339
+ Giga AMOs/sec (GAMS) : 4.76406
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:05:31 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14cf56000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14c7bc000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting STRIDE1_ADD kernel with 500000 iterations and 128 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00202107
+ Giga AMOs/sec (GAMS) : 31.6663
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:06:28 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14a1a6000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x149a0c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting STRIDEN_ADD kernel with 500000 iterations, 128 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.002038
+ Giga AMOs/sec (GAMS) : 31.4033
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:07:24 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x152806000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x15206c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting SG_ADD kernel with 500000 iterations and 128 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.0157411
+ Giga AMOs/sec (GAMS) : 16.2631
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:08:21 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14d248000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14caae000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting SCATTER_ADD kernel with 500000 iterations and 128 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.015101
+ Giga AMOs/sec (GAMS) : 12.7144
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:09:17 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x145356000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x144bbc000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting GATHER_ADD kernel with 500000 iterations and 128 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.0149519
+ Giga AMOs/sec (GAMS) : 12.8411
+================================================
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:10:12 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x150f36000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x15079c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting RAND_ADD kernel with 500000 iterations and 128 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.0134189
+ Giga AMOs/sec (GAMS) : 4.76939
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:11:08 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14d4c6000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14cd2c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting STRIDE1_ADD kernel with 500000 iterations and 128 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00205183
+ Giga AMOs/sec (GAMS) : 31.1917
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:12:04 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14c508000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14bd6e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting STRIDEN_ADD kernel with 500000 iterations, 128 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.00206399
+ Giga AMOs/sec (GAMS) : 31.0079
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:13:00 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14bee0000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14b746000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting SG_ADD kernel with 500000 iterations and 128 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.0156929
+ Giga AMOs/sec (GAMS) : 16.3131
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:13:56 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x148666000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x147ecc000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting SCATTER_ADD kernel with 500000 iterations and 128 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.01524
+ Giga AMOs/sec (GAMS) : 12.5985
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:14:51 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14a0a0000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x149906000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting GATHER_ADD kernel with 500000 iterations and 128 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.015059
+ Giga AMOs/sec (GAMS) : 12.7499
+================================================
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:15:48 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x146e98000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1466fe000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting RAND_ADD kernel with 500000 iterations and 128 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.0134451
+ Giga AMOs/sec (GAMS) : 4.76008
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:16:44 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14a658000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x149ebe000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting STRIDE1_ADD kernel with 500000 iterations and 128 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00207615
+ Giga AMOs/sec (GAMS) : 30.8263
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:17:41 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14f6d8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14ef3e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting STRIDEN_ADD kernel with 500000 iterations, 128 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.00202894
+ Giga AMOs/sec (GAMS) : 31.5435
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:18:37 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x150e46000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1506ac000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting SG_ADD kernel with 500000 iterations and 128 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.015913
+ Giga AMOs/sec (GAMS) : 16.0875
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:19:33 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x149c08000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14946e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting SCATTER_ADD kernel with 500000 iterations and 128 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.0152631
+ Giga AMOs/sec (GAMS) : 12.5794
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:20:29 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x153cf0000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x153556000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting GATHER_ADD kernel with 500000 iterations and 128 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.0149629
+ Giga AMOs/sec (GAMS) : 12.8317
+================================================
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:21:25 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14d506000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14cd6c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting RAND_ADD kernel with 500000 iterations and 128 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.013402
+ Giga AMOs/sec (GAMS) : 4.77541
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:22:21 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14bfc8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14b82e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting STRIDE1_ADD kernel with 500000 iterations and 128 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00203514
+ Giga AMOs/sec (GAMS) : 31.4475
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:23:17 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14b4e8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14ad4e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting STRIDEN_ADD kernel with 500000 iterations, 128 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.0020442
+ Giga AMOs/sec (GAMS) : 31.3081
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:24:14 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14d154000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14c9ba000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting SG_ADD kernel with 500000 iterations and 128 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.0157909
+ Giga AMOs/sec (GAMS) : 16.2118
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:25:10 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14f636000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14ee9c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting SCATTER_ADD kernel with 500000 iterations and 128 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.0153611
+ Giga AMOs/sec (GAMS) : 12.4991
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:26:06 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14bee8000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14b74e000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting GATHER_ADD kernel with 500000 iterations and 128 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.014962
+ Giga AMOs/sec (GAMS) : 12.8325
+================================================
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the RAND_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:27:02 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x150166000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14f9cc000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting RAND_ADD kernel with 500000 iterations and 128 PEs...
+Completed RAND_ADD kernel.
+================================================
+ Benchmark Kernel     : RAND_ADD
+ Timing (secs)        : 0.013406
+ Giga AMOs/sec (GAMS) : 4.77397
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDE1_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:27:59 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x146a60000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x1462c6000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting STRIDE1_ADD kernel with 500000 iterations and 128 PEs...
+Completed STRIDE1_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDE1_ADD
+ Timing (secs)        : 0.00201797
+ Giga AMOs/sec (GAMS) : 31.715
+================================================
+
+
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:28:55 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x1545f0000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x153e56000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting STRIDEN_ADD kernel with 500000 iterations, 128 PEs, and stride 1...
+Completed STRIDEN_ADD kernel.
+================================================
+ Benchmark Kernel     : STRIDEN_ADD
+ Timing (secs)        : 0.00203109
+ Giga AMOs/sec (GAMS) : 31.5102
+================================================
+
+
+------------------------------------------------------
+  Running the SG_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:29:51 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14cd40000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14c5a6000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting SG_ADD kernel with 500000 iterations and 128 PEs...
+Completed SG_ADD kernel.
+================================================
+ Benchmark Kernel     : SG_ADD
+ Timing (secs)        : 0.016655
+ Giga AMOs/sec (GAMS) : 15.3708
+================================================
+
+
+------------------------------------------------------
+  Running the SCATTER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:30:47 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x14c8d6000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14c13c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting SCATTER_ADD kernel with 500000 iterations and 128 PEs...
+Completed SCATTER_ADD kernel.
+================================================
+ Benchmark Kernel     : SCATTER_ADD
+ Timing (secs)        : 0.0152309
+ Giga AMOs/sec (GAMS) : 12.606
+================================================
+
+
+------------------------------------------------------
+  Running the GATHER_ADD kernel using the OpenMP impl...
+                  08-03-25 AT 18:31:44 
+------------------------------------------------------
+Running with 128 teams, 256 threads per team
+CT_OMP_TARGET::SetDevice : Found 3 available offload targets.
+CT_OMP_TARGET::SetDevice : OMP_DEFAULT_DEVICE is not set, using default.
+Allocating Array on target device...
+Array allocation done. Address: 0x145836000000
+Allocating Idx on target device...
+Idx allocation done. Address: 0x14509c000000
+Copying data to target device...
+Data copy to target device done.
+RUNNING WITH NUM_TEAMS = 128
+Starting GATHER_ADD kernel with 500000 iterations and 128 PEs...
+Completed GATHER_ADD kernel.
+================================================
+ Benchmark Kernel     : GATHER_ADD
+ Timing (secs)        : 0.0149672
+ Giga AMOs/sec (GAMS) : 12.828
+================================================
+
+
+
+
+
+
+
+
+
+
+
+

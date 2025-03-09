@@ -4,8 +4,8 @@
 #######################################################################
 #                      Create output file  
 #######################################################################
-IMPL="CUDA OpenMP OpenACC"
-
+IMPL="OpenMP OpenACC" #CUDA Removed because testing was done previously
+#IMPL="CUDA OpenMP OpenACC" 
 date
 #######################################################################
 #             Specify path to the circustent executable 
