@@ -5,24 +5,24 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OPENACC/CT_OPENACC_IMPL.c" "/home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/CT_OPENACC_IMPL.c.o"
+  "/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OMP_TARGET/CT_OMP_TARGET_IMPL.c" "/home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/CT_OMP_TARGET_IMPL.c.o"
   )
 set(CMAKE_C_COMPILER_ID "PGI")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
-  "../src/CircusTent/Impl/CT_OPENACC/."
+  "../src/CircusTent/Impl/CT_OMP_TARGET/."
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OPENACC/CT_OPENACC.cpp" "/home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/CT_OPENACC.cpp.o"
+  "/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OMP_TARGET/CT_OMP_TARGET.cpp" "/home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/CT_OMP_TARGET.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "PGI")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
-  "../src/CircusTent/Impl/CT_OPENACC/."
+  "../src/CircusTent/Impl/CT_OMP_TARGET/."
   )
 
 # Targets to which this target links.

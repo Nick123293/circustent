@@ -71,8 +71,8 @@ cd $TEST_DIR
 #######################################################################
 #                         Run each all CUDA kernels
 #######################################################################
-BENCH="RAND_ADD RAND_CAS STRIDE1_ADD STRIDE1_CAS STRIDEN_ADD STRIDEN_CAS CENTRAL_ADD CENTRAL_CAS SG_ADD SG_CAS SCATTER_ADD SCATTER_CAS GATHER_ADD GATHER_CAS"
-# BENCH="STRIDEN_ADD STRIDEN_CAS"
+#BENCH="RAND_ADD RAND_CAS STRIDE1_ADD STRIDE1_CAS STRIDEN_ADD STRIDEN_CAS CENTRAL_ADD CENTRAL_CAS SG_ADD SG_CAS SCATTER_ADD SCATTER_CAS GATHER_ADD GATHER_CAS"
+BENCH="STRIDEN_ADD STRIDEN_CAS"
 for i in {1..5}; do
   echo $HHLINE >> $OUTPUT_FILE
   echo "        ITERATION $i" >> $OUTPUT_FILE
@@ -85,7 +85,7 @@ for i in {1..5}; do
 
     if [[ "$IMPL" == "CUDA" ]]; then
       echo "Running with $BLOCKS blocks, $THREADS threads per block" >> $OUTPUT_FILE
-      if [[ $BENCH == "STRIDEN_ADD" || $BENCH == "STRIDEN_CAS" ]]; then
+      if [[ $B == "STRIDEN_ADD" || $B == "STRIDEN_CAS" ]]; then
         $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS --stride 10 >> $OUTPUT_FILE
       else
         $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
@@ -96,7 +96,11 @@ for i in {1..5}; do
       export OMP_NUM_TEAMS=$BLOCKS
       export OMP_NUM_THREADS=$THREADS
       echo "Running with $BLOCKS teams, $THREADS threads per team" >> $OUTPUT_FILE
-      $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE        
+      if [[ $B == "STRIDEN_ADD" || $B == "STRIDEN_CAS" ]]; then
+          $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS --stride 10 >> $OUTPUT_FILE
+      else
+          $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE        
+      fi
       echo >> $OUTPUT_FILE
       echo >> $OUTPUT_FILE
     elif [[ "$IMPL" == "OpenACC" ]]; then

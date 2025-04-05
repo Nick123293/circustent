@@ -33,4 +33,12 @@ The following have been reloaded with a version change:
 
 /home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_CUDA/CT_CUDA_IMPL.cu(255): warning: variable "ret" was set but never used
 
-slurmstepd: error: *** STEP 16132696.0 ON gpu-20-1 CANCELLED AT 2025-03-01T13:43:51 ***
+./all_kernels.sh: line 85: 29006 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 85: 29031 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 85: 29060 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 85: 29069 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 85: 29077 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 85: 29085 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+./all_kernels.sh: line 85: 29094 Killed                  $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+slurmstepd: error: *** STEP 16202013.0 ON gpu-20-8 CANCELLED AT 2025-03-11T15:43:04 ***
+slurmstepd: error: Detected 7 oom_kill events in StepId=16202013.0. Some of the step tasks have been OOM Killed.

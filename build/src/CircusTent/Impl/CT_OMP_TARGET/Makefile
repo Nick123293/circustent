@@ -111,17 +111,6 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/apps/nfs/spack/opt/spack/linux-centos8-zen2/gcc-9.3.0/cmake-3.17.3-6oxbiqlh3iqc4dn77nufq56pdrsoqa3j/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -132,6 +121,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/opt/apps/nfs/spack/opt/spack/linux-centos8-zen2/gcc-9.3.0/cmake-3.17.3-6oxbiqlh3iqc4dn77nufq56pdrsoqa3j/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # Special rule for the target install
 install: preinstall
@@ -157,14 +157,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/and21829/circustent_journal_eval/circustent/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/and21829/circustent_journal_eval/circustent/build/CMakeFiles /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/Impl/CT_OPENACC/CMakeFiles/progress.marks
-	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CircusTent/Impl/CT_OPENACC/all
+	cd /home/and21829/circustent_journal_eval/circustent/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/and21829/circustent_journal_eval/circustent/build/CMakeFiles /home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/progress.marks
+	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CircusTent/Impl/CT_OMP_TARGET/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/and21829/circustent_journal_eval/circustent/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CircusTent/Impl/CT_OPENACC/clean
+	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CircusTent/Impl/CT_OMP_TARGET/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,12 +174,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CircusTent/Impl/CT_OPENACC/preinstall
+	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CircusTent/Impl/CT_OMP_TARGET/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CircusTent/Impl/CT_OPENACC/preinstall
+	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CircusTent/Impl/CT_OMP_TARGET/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -188,73 +188,73 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/rule:
-	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/rule
-.PHONY : src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/rule
+src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/rule:
+	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/rule
+.PHONY : src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/rule
 
 # Convenience name for target.
-CT_OPENACC_OBJS: src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/rule
+CT_OMP_TARGET_OBJS: src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/rule
 
-.PHONY : CT_OPENACC_OBJS
+.PHONY : CT_OMP_TARGET_OBJS
 
 # fast build rule for target.
-CT_OPENACC_OBJS/fast:
-	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/build.make src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/build
-.PHONY : CT_OPENACC_OBJS/fast
+CT_OMP_TARGET_OBJS/fast:
+	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/build.make src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/build
+.PHONY : CT_OMP_TARGET_OBJS/fast
 
-CT_OPENACC.o: CT_OPENACC.cpp.o
+CT_OMP_TARGET.o: CT_OMP_TARGET.cpp.o
 
-.PHONY : CT_OPENACC.o
-
-# target to build an object file
-CT_OPENACC.cpp.o:
-	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/build.make src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/CT_OPENACC.cpp.o
-.PHONY : CT_OPENACC.cpp.o
-
-CT_OPENACC.i: CT_OPENACC.cpp.i
-
-.PHONY : CT_OPENACC.i
-
-# target to preprocess a source file
-CT_OPENACC.cpp.i:
-	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/build.make src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/CT_OPENACC.cpp.i
-.PHONY : CT_OPENACC.cpp.i
-
-CT_OPENACC.s: CT_OPENACC.cpp.s
-
-.PHONY : CT_OPENACC.s
-
-# target to generate assembly for a file
-CT_OPENACC.cpp.s:
-	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/build.make src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/CT_OPENACC.cpp.s
-.PHONY : CT_OPENACC.cpp.s
-
-CT_OPENACC_IMPL.o: CT_OPENACC_IMPL.c.o
-
-.PHONY : CT_OPENACC_IMPL.o
+.PHONY : CT_OMP_TARGET.o
 
 # target to build an object file
-CT_OPENACC_IMPL.c.o:
-	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/build.make src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/CT_OPENACC_IMPL.c.o
-.PHONY : CT_OPENACC_IMPL.c.o
+CT_OMP_TARGET.cpp.o:
+	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/build.make src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/CT_OMP_TARGET.cpp.o
+.PHONY : CT_OMP_TARGET.cpp.o
 
-CT_OPENACC_IMPL.i: CT_OPENACC_IMPL.c.i
+CT_OMP_TARGET.i: CT_OMP_TARGET.cpp.i
 
-.PHONY : CT_OPENACC_IMPL.i
+.PHONY : CT_OMP_TARGET.i
 
 # target to preprocess a source file
-CT_OPENACC_IMPL.c.i:
-	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/build.make src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/CT_OPENACC_IMPL.c.i
-.PHONY : CT_OPENACC_IMPL.c.i
+CT_OMP_TARGET.cpp.i:
+	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/build.make src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/CT_OMP_TARGET.cpp.i
+.PHONY : CT_OMP_TARGET.cpp.i
 
-CT_OPENACC_IMPL.s: CT_OPENACC_IMPL.c.s
+CT_OMP_TARGET.s: CT_OMP_TARGET.cpp.s
 
-.PHONY : CT_OPENACC_IMPL.s
+.PHONY : CT_OMP_TARGET.s
 
 # target to generate assembly for a file
-CT_OPENACC_IMPL.c.s:
-	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/build.make src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/CT_OPENACC_IMPL.c.s
-.PHONY : CT_OPENACC_IMPL.c.s
+CT_OMP_TARGET.cpp.s:
+	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/build.make src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/CT_OMP_TARGET.cpp.s
+.PHONY : CT_OMP_TARGET.cpp.s
+
+CT_OMP_TARGET_IMPL.o: CT_OMP_TARGET_IMPL.c.o
+
+.PHONY : CT_OMP_TARGET_IMPL.o
+
+# target to build an object file
+CT_OMP_TARGET_IMPL.c.o:
+	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/build.make src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/CT_OMP_TARGET_IMPL.c.o
+.PHONY : CT_OMP_TARGET_IMPL.c.o
+
+CT_OMP_TARGET_IMPL.i: CT_OMP_TARGET_IMPL.c.i
+
+.PHONY : CT_OMP_TARGET_IMPL.i
+
+# target to preprocess a source file
+CT_OMP_TARGET_IMPL.c.i:
+	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/build.make src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/CT_OMP_TARGET_IMPL.c.i
+.PHONY : CT_OMP_TARGET_IMPL.c.i
+
+CT_OMP_TARGET_IMPL.s: CT_OMP_TARGET_IMPL.c.s
+
+.PHONY : CT_OMP_TARGET_IMPL.s
+
+# target to generate assembly for a file
+CT_OMP_TARGET_IMPL.c.s:
+	cd /home/and21829/circustent_journal_eval/circustent/build && $(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/build.make src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/CT_OMP_TARGET_IMPL.c.s
+.PHONY : CT_OMP_TARGET_IMPL.c.s
 
 # Help Target
 help:
@@ -269,13 +269,13 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... CT_OPENACC_OBJS"
-	@echo "... CT_OPENACC.o"
-	@echo "... CT_OPENACC.i"
-	@echo "... CT_OPENACC.s"
-	@echo "... CT_OPENACC_IMPL.o"
-	@echo "... CT_OPENACC_IMPL.i"
-	@echo "... CT_OPENACC_IMPL.s"
+	@echo "... CT_OMP_TARGET_OBJS"
+	@echo "... CT_OMP_TARGET.o"
+	@echo "... CT_OMP_TARGET.i"
+	@echo "... CT_OMP_TARGET.s"
+	@echo "... CT_OMP_TARGET_IMPL.o"
+	@echo "... CT_OMP_TARGET_IMPL.i"
+	@echo "... CT_OMP_TARGET_IMPL.s"
 .PHONY : help
 
 

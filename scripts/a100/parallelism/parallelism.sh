@@ -59,8 +59,8 @@ cd $TEST_DIR
 #######################################################################
 #                         Run each all CUDA kernels
 #######################################################################
-BENCH="RAND_ADD STRIDE1_ADD STRIDEN_ADD SG_ADD SCATTER_ADD GATHER_ADD"
-
+#BENCH="RAND_ADD STRIDE1_ADD STRIDEN_ADD SG_ADD SCATTER_ADD GATHER_ADD"
+BENCH="STRIDEN_ADD"
 BLOCKS=16
 for i in {1..5}; do
     echo $HHLINE >> $OUTPUT_FILE
@@ -74,7 +74,7 @@ for i in {1..5}; do
 
         if [[ "$IMPL" == "CUDA" ]]; then
             echo "Running with $BLOCKS blocks, $THREADS threads per block" >> $OUTPUT_FILE
-            if [[ $BENCH == "STRIDEN_ADD" || $BENCH == "STRIDEN_CAS" ]]; then
+            if [[ $B == "STRIDEN_ADD" || $B == "STRIDEN_CAS" ]]; then
                 $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS --stride 10 >> $OUTPUT_FILE
             else
                 $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
@@ -83,7 +83,11 @@ for i in {1..5}; do
             echo >> $OUTPUT_FILE
         elif [[ "$IMPL" == "OpenMP" ]]; then
             echo "Running with $BLOCKS teams, $THREADS threads per team" >> $OUTPUT_FILE
-            $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE        
+            if [[ $B == "STRIDEN_ADD" || $B == "STRIDEN_CAS" ]]; then
+                $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS --stride 10 >> $OUTPUT_FILE
+            else
+                $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE        
+            fi     
             echo >> $OUTPUT_FILE
             echo >> $OUTPUT_FILE
         elif [[ "$IMPL" == "OpenACC" ]]; then
@@ -120,12 +124,20 @@ for i in {1..5}; do
 
         if [[ "$IMPL" == "CUDA" ]]; then
             echo "Running with $BLOCKS blocks, $THREADS threads per block" >> $OUTPUT_FILE
-            $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+            if [[ $B == "STRIDEN_ADD" || $B == "STRIDEN_CAS" ]]; then
+                $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS --stride 10 >> $OUTPUT_FILE
+            else
+                $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+            fi
             echo >> $OUTPUT_FILE
             echo >> $OUTPUT_FILE
         elif [[ "$IMPL" == "OpenMP" ]]; then
             echo "Running with $BLOCKS teams, $THREADS threads per team" >> $OUTPUT_FILE
-            $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE        
+            if [[ $B == "STRIDEN_ADD" || $B == "STRIDEN_CAS" ]]; then
+                $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS --stride 10 >> $OUTPUT_FILE
+            else
+                $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE        
+            fi     
             echo >> $OUTPUT_FILE
             echo >> $OUTPUT_FILE
         elif [[ "$IMPL" == "OpenACC" ]]; then
@@ -162,12 +174,20 @@ for i in {1..5}; do
 
         if [[ "$IMPL" == "CUDA" ]]; then
             echo "Running with $BLOCKS blocks, $THREADS threads per block" >> $OUTPUT_FILE
-            $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+            if [[ $B == "STRIDEN_ADD" || $B == "STRIDEN_CAS" ]]; then
+                $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS --stride 10 >> $OUTPUT_FILE
+            else
+                $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+            fi
             echo >> $OUTPUT_FILE
             echo >> $OUTPUT_FILE
         elif [[ "$IMPL" == "OpenMP" ]]; then
             echo "Running with $BLOCKS teams, $THREADS threads per team" >> $OUTPUT_FILE
-            $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE        
+            if [[ $B == "STRIDEN_ADD" || $B == "STRIDEN_CAS" ]]; then
+                $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS --stride 10 >> $OUTPUT_FILE
+            else
+                $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE        
+            fi     
             echo >> $OUTPUT_FILE
             echo >> $OUTPUT_FILE
         elif [[ "$IMPL" == "OpenACC" ]]; then
@@ -204,12 +224,20 @@ for i in {1..5}; do
 
         if [[ "$IMPL" == "CUDA" ]]; then
             echo "Running with $BLOCKS blocks, $THREADS threads per block" >> $OUTPUT_FILE
-            $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+            if [[ $B == "STRIDEN_ADD" || $B == "STRIDEN_CAS" ]]; then
+                $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS --stride 10 >> $OUTPUT_FILE
+            else
+                $EXE --bench $B -m $MEM_SIZE -i $ITERS --blocks $BLOCKS --threads $THREADS >> $OUTPUT_FILE
+            fi
             echo >> $OUTPUT_FILE
             echo >> $OUTPUT_FILE
         elif [[ "$IMPL" == "OpenMP" ]]; then
             echo "Running with $BLOCKS teams, $THREADS threads per team" >> $OUTPUT_FILE
-            $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE        
+            if [[ $B == "STRIDEN_ADD" || $B == "STRIDEN_CAS" ]]; then
+                $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS --stride 10 >> $OUTPUT_FILE
+            else
+                $EXE --bench $B -m $MEM_SIZE -p $BLOCKS -i $ITERS >> $OUTPUT_FILE        
+            fi     
             echo >> $OUTPUT_FILE
             echo >> $OUTPUT_FILE
         elif [[ "$IMPL" == "OpenACC" ]]; then

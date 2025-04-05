@@ -110,13 +110,13 @@ circustent_OBJECTS = \
 
 # External object files for target circustent
 circustent_EXTERNAL_OBJECTS = \
-"/home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/CT_OPENACC.cpp.o" \
-"/home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/CT_OPENACC_IMPL.c.o"
+"/home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/CT_OMP_TARGET.cpp.o" \
+"/home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/CT_OMP_TARGET_IMPL.c.o"
 
 src/CircusTent/circustent: src/CircusTent/CMakeFiles/circustent.dir/CT_Main.cpp.o
 src/CircusTent/circustent: src/CircusTent/CMakeFiles/circustent.dir/CTOpts.cpp.o
-src/CircusTent/circustent: src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/CT_OPENACC.cpp.o
-src/CircusTent/circustent: src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/CT_OPENACC_IMPL.c.o
+src/CircusTent/circustent: src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/CT_OMP_TARGET.cpp.o
+src/CircusTent/circustent: src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/CT_OMP_TARGET_IMPL.c.o
 src/CircusTent/circustent: src/CircusTent/CMakeFiles/circustent.dir/build.make
 src/CircusTent/circustent: src/CircusTent/CMakeFiles/circustent.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/and21829/circustent_journal_eval/circustent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable circustent"

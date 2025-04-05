@@ -1,4 +1,4 @@
-# Install script for directory: /home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OPENACC
+# Install script for directory: /home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OMP_TARGET
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

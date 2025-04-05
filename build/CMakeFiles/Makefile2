@@ -177,37 +177,37 @@ src/CircusTent/clean: src/CircusTent/Impl/clean
 # Directory level rules for directory src/CircusTent/Impl
 
 # Recursive "all" directory target.
-src/CircusTent/Impl/all: src/CircusTent/Impl/CT_OPENACC/all
+src/CircusTent/Impl/all: src/CircusTent/Impl/CT_OMP_TARGET/all
 
 .PHONY : src/CircusTent/Impl/all
 
 # Recursive "preinstall" directory target.
-src/CircusTent/Impl/preinstall: src/CircusTent/Impl/CT_OPENACC/preinstall
+src/CircusTent/Impl/preinstall: src/CircusTent/Impl/CT_OMP_TARGET/preinstall
 
 .PHONY : src/CircusTent/Impl/preinstall
 
 # Recursive "clean" directory target.
-src/CircusTent/Impl/clean: src/CircusTent/Impl/CT_OPENACC/clean
+src/CircusTent/Impl/clean: src/CircusTent/Impl/CT_OMP_TARGET/clean
 
 .PHONY : src/CircusTent/Impl/clean
 
 #=============================================================================
-# Directory level rules for directory src/CircusTent/Impl/CT_OPENACC
+# Directory level rules for directory src/CircusTent/Impl/CT_OMP_TARGET
 
 # Recursive "all" directory target.
-src/CircusTent/Impl/CT_OPENACC/all: src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/all
+src/CircusTent/Impl/CT_OMP_TARGET/all: src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/all
 
-.PHONY : src/CircusTent/Impl/CT_OPENACC/all
+.PHONY : src/CircusTent/Impl/CT_OMP_TARGET/all
 
 # Recursive "preinstall" directory target.
-src/CircusTent/Impl/CT_OPENACC/preinstall:
+src/CircusTent/Impl/CT_OMP_TARGET/preinstall:
 
-.PHONY : src/CircusTent/Impl/CT_OPENACC/preinstall
+.PHONY : src/CircusTent/Impl/CT_OMP_TARGET/preinstall
 
 # Recursive "clean" directory target.
-src/CircusTent/Impl/CT_OPENACC/clean: src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/clean
+src/CircusTent/Impl/CT_OMP_TARGET/clean: src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/clean
 
-.PHONY : src/CircusTent/Impl/CT_OPENACC/clean
+.PHONY : src/CircusTent/Impl/CT_OMP_TARGET/clean
 
 #=============================================================================
 # Directory level rules for directory test
@@ -393,7 +393,7 @@ CMakeFiles/safepdf.dir/clean:
 # Target rules for target src/CircusTent/CMakeFiles/circustent.dir
 
 # All Build rule for target.
-src/CircusTent/CMakeFiles/circustent.dir/all: src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/all
+src/CircusTent/CMakeFiles/circustent.dir/all: src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CircusTent/CMakeFiles/circustent.dir/build.make src/CircusTent/CMakeFiles/circustent.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CircusTent/CMakeFiles/circustent.dir/build.make src/CircusTent/CMakeFiles/circustent.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/and21829/circustent_journal_eval/circustent/build/CMakeFiles --progress-num=3,4,5 "Built target circustent"
@@ -417,31 +417,31 @@ src/CircusTent/CMakeFiles/circustent.dir/clean:
 .PHONY : src/CircusTent/CMakeFiles/circustent.dir/clean
 
 #=============================================================================
-# Target rules for target src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir
+# Target rules for target src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir
 
 # All Build rule for target.
-src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/build.make src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/build.make src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/and21829/circustent_journal_eval/circustent/build/CMakeFiles --progress-num=1,2 "Built target CT_OPENACC_OBJS"
-.PHONY : src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/all
+src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/build.make src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/build.make src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/and21829/circustent_journal_eval/circustent/build/CMakeFiles --progress-num=1,2 "Built target CT_OMP_TARGET_OBJS"
+.PHONY : src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/all
 
 # Build rule for subdir invocation for target.
-src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/rule: cmake_check_build_system
+src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/and21829/circustent_journal_eval/circustent/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/and21829/circustent_journal_eval/circustent/build/CMakeFiles 0
-.PHONY : src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/rule
+.PHONY : src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/rule
 
 # Convenience name for target.
-CT_OPENACC_OBJS: src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/rule
+CT_OMP_TARGET_OBJS: src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/rule
 
-.PHONY : CT_OPENACC_OBJS
+.PHONY : CT_OMP_TARGET_OBJS
 
 # clean rule for target.
-src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/build.make src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/clean
-.PHONY : src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/clean
+src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/build.make src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/clean
+.PHONY : src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

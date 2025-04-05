@@ -4,7 +4,7 @@
 #######################################################################
 #                      Create output file  
 #######################################################################
-IMPL="CUDA OpenMP OpenACC"
+IMPL="CUDA OpenMP"
 
 date
 #######################################################################
@@ -25,20 +25,20 @@ for I in $IMPL; do
         ./BUILD.sh v100 cuda
         echo "CUDA built, running all kernels"
         cd $CT_V100_KERNELS/all_kernels
-        ./all_kernels.sh CUDA
-        echo "all kernels done, running parallelism"
-        cd ../parallelism
-        ./parallelism.sh CUDA
+        ./all_kernels_strided.sh CUDA
+        # echo "all kernels done, running parallelism"
+        # cd ../parallelism
+        # ./parallelism.sh CUDA
     elif [[ "$I" == "OpenMP" ]]; then
         echo "Running OpenMP tests..."
         cd $CT_SCRIPTS
         ./BUILD.sh v100 openmp
         echo "OpenMP built, running all kernels"
         cd $CT_V100_KERNELS/all_kernels
-        ./all_kernels.sh OpenMP
-        echo "all kernels done, running parallelism"
-        cd ../parallelism   
-        ./parallelism.sh OpenMP
+        ./all_kernels_strided.sh OpenMP
+        # echo "all kernels done, running parallelism"
+        # cd ../parallelism   
+        # ./parallelism.sh OpenMP
     elif [[ "$I" == "OpenACC" ]]; then
         echo "Running OpenACC tests..."
         cd $CT_SCRIPTS

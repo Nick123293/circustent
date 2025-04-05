@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OPENACC/CT_OPENACC_IMPL.c
-openacc.h
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OMP_TARGET/CT_OMP_TARGET_IMPL.c
+omp.h
 -
 stdint.h
+-
+stdio.h
 -
 

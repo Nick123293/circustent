@@ -4,7 +4,7 @@
 #######################################################################
 #                      Create output file  
 #######################################################################
-IMPL="OpenMP OpenACC" #CUDA Removed because testing was done previously
+IMPL="CUDA OpenMP" #OpenACC removed from testing
 #IMPL="CUDA OpenMP OpenACC" 
 date
 #######################################################################

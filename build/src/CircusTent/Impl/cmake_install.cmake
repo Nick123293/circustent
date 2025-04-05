@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/Impl/CT_OPENACC/cmake_install.cmake")
+  include("/home/and21829/circustent_journal_eval/circustent/build/src/CircusTent/Impl/CT_OMP_TARGET/cmake_install.cmake")
 
 endif()
 

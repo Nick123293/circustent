@@ -279,17 +279,17 @@ circustent/fast:
 .PHONY : circustent/fast
 
 #=============================================================================
-# Target rules for targets named CT_OPENACC_OBJS
+# Target rules for targets named CT_OMP_TARGET_OBJS
 
 # Build rule for target.
-CT_OPENACC_OBJS: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CT_OPENACC_OBJS
-.PHONY : CT_OPENACC_OBJS
+CT_OMP_TARGET_OBJS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CT_OMP_TARGET_OBJS
+.PHONY : CT_OMP_TARGET_OBJS
 
 # fast build rule for target.
-CT_OPENACC_OBJS/fast:
-	$(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/build.make src/CircusTent/Impl/CT_OPENACC/CMakeFiles/CT_OPENACC_OBJS.dir/build
-.PHONY : CT_OPENACC_OBJS/fast
+CT_OMP_TARGET_OBJS/fast:
+	$(MAKE) $(MAKESILENT) -f src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/build.make src/CircusTent/Impl/CT_OMP_TARGET/CMakeFiles/CT_OMP_TARGET_OBJS.dir/build
+.PHONY : CT_OMP_TARGET_OBJS/fast
 
 # Help Target
 help:
@@ -310,7 +310,7 @@ help:
 	@echo "... pdf"
 	@echo "... ps"
 	@echo "... safepdf"
-	@echo "... CT_OPENACC_OBJS"
+	@echo "... CT_OMP_TARGET_OBJS"
 	@echo "... circustent"
 .PHONY : help
 

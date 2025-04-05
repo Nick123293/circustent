@@ -7,8 +7,8 @@ void RAND_ADD( uint64_t *restrict ARRAY,
                uint64_t iters,
                uint64_t pes ){
 
-  printf("Starting RAND_ADD kernel with %lu iterations and %lu PEs...\n", iters, pes);
-  fflush(stdout);
+  // printf("Starting RAND_ADD kernel with %lu iterations and %lu PEs...\n", iters, pes);
+  // fflush(stdout);
 
   #pragma omp target teams num_teams(pes) is_device_ptr(ARRAY, IDX) map(to:iters)
   {
@@ -34,8 +34,8 @@ void RAND_ADD( uint64_t *restrict ARRAY,
     }
   }
 
-  printf("Completed RAND_ADD kernel.\n");
-  fflush(stdout);
+  // printf("Completed RAND_ADD kernel.\n");
+  // fflush(stdout);
 }
 
 void STRIDE1_ADD( uint64_t *restrict ARRAY,

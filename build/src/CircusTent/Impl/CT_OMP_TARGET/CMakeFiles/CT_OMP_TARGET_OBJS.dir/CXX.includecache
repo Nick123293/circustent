@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/CircusTent/CTBaseImpl.h
+iostream
+-
+stdlib.h
+-
+bits/stdc++.h
+-
+sys/time.h
+-
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OMP_TARGET/CT_OMP_TARGET.cpp
+CT_OMP_TARGET.h
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OMP_TARGET/CT_OMP_TARGET.h
+
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OMP_TARGET/CT_OMP_TARGET.h
+cstdlib
+-
+omp.h
+-
+ctime
+-
+CircusTent/CTBaseImpl.h
+/home/and21829/circustent_journal_eval/circustent/src/CircusTent/Impl/CT_OMP_TARGET/CircusTent/CTBaseImpl.h
+

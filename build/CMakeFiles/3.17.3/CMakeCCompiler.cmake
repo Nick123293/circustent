@@ -71,6 +71,6 @@ endif()
 
 
 set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/usr/include")
-set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "acchost;accdevaux;accdevice;dl;cudadevice;nvomp;dl;nvhpcatm;atomic;pthread;nvcpumath;nsnvc;nvc;m;gcc;c;gcc;gcc_s")
+set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "acchost;accdevaux;accdevice;hxrt_dev;dl;cudadevice;nvomp;dl;nvhpcatm;atomic;pthread;nvcpumath;nsnvc;nvc;m;gcc;c;gcc;gcc_s")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/opt/apps/nfs/spack/opt/spack/linux-centos8-zen2/gcc-9.3.0/nvhpc-21.3-rjjnyvxif3czjq4groncoluqbhjt6g2u/Linux_x86_64/21.3/compilers/lib;/opt/apps/nfs/spack/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-9.3.0-yuektlndiynoevlc7qkmwudsixdokdom/lib64;/opt/apps/nfs/spack/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-9.3.0-yuektlndiynoevlc7qkmwudsixdokdom/lib;/usr/lib64;/usr/lib/gcc/x86_64-redhat-linux/8")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

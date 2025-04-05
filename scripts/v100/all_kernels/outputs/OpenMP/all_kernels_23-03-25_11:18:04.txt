@@ -1,0 +1,105 @@
+=============================================================
+        ITERATION 1
+=============================================================
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  23-03-25 AT 11:18:04 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the OpenMP impl...
+                  23-03-25 AT 11:18:04 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Unknown option: --blocks
+Failed to parse command line options
+
+
+=============================================================
+        ITERATION 2
+=============================================================
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  23-03-25 AT 11:18:04 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the OpenMP impl...
+                  23-03-25 AT 11:18:04 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Unknown option: --blocks
+Failed to parse command line options
+
+
+=============================================================
+        ITERATION 3
+=============================================================
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  23-03-25 AT 11:18:04 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the OpenMP impl...
+                  23-03-25 AT 11:18:04 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Unknown option: --blocks
+Failed to parse command line options
+
+
+=============================================================
+        ITERATION 4
+=============================================================
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  23-03-25 AT 11:18:04 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the OpenMP impl...
+                  23-03-25 AT 11:18:04 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Unknown option: --blocks
+Failed to parse command line options
+
+
+=============================================================
+        ITERATION 5
+=============================================================
+------------------------------------------------------
+  Running the STRIDEN_ADD kernel using the OpenMP impl...
+                  23-03-25 AT 11:18:04 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Unknown option: --blocks
+Failed to parse command line options
+
+
+------------------------------------------------------
+  Running the STRIDEN_CAS kernel using the OpenMP impl...
+                  23-03-25 AT 11:18:05 
+------------------------------------------------------
+Running with 32 teams, 256 threads per team
+Unknown option: --blocks
+Failed to parse command line options
+
+

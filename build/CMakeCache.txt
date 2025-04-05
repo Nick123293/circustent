@@ -46,7 +46,7 @@ CMAKE_COLOR_MAKEFILE:BOOL=ON
 CMAKE_CXX_COMPILER:UNINITIALIZED=/opt/apps/nfs/spack/opt/spack/linux-centos8-zen2/gcc-9.3.0/nvhpc-21.3-rjjnyvxif3czjq4groncoluqbhjt6g2u/Linux_x86_64/21.3/compilers/bin/nvc++
 
 //Flags used by the CXX compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=-ta=tesla:cc80
+CMAKE_CXX_FLAGS:STRING=-mp=gpu -Minfo=mp -gpu=cc80
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g -O0
@@ -64,7 +64,7 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -gopt
 CMAKE_C_COMPILER:UNINITIALIZED=/opt/apps/nfs/spack/opt/spack/linux-centos8-zen2/gcc-9.3.0/nvhpc-21.3-rjjnyvxif3czjq4groncoluqbhjt6g2u/Linux_x86_64/21.3/compilers/bin/nvc
 
 //Flags used by the C compiler during all build types.
-CMAKE_C_FLAGS:STRING=-ta=tesla:cc80
+CMAKE_C_FLAGS:STRING=-mp=gpu -Minfo=mp -gpu=cc80
 
 //Flags used by the C compiler during DEBUG builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g -O0
@@ -82,7 +82,7 @@ CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -gopt
 CMAKE_DLLTOOL:FILEPATH=CMAKE_DLLTOOL-NOTFOUND
 
 //Flags used by the linker during all build types.
-CMAKE_EXE_LINKER_FLAGS:STRING=
+CMAKE_EXE_LINKER_FLAGS:STRING=-mp=gpu -gpu=cc80
 
 //Flags used by the linker during DEBUG builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
@@ -227,7 +227,7 @@ DVIPS_CONVERTER:FILEPATH=/usr/bin/dvips
 DVIPS_CONVERTER_FLAGS:STRING=-Ppdf -G0 -t letter
 
 //No help, variable specified on the command line.
-ENABLE_OPENACC:UNINITIALIZED=ON
+ENABLE_OMP_TARGET:UNINITIALIZED=ON
 
 //Path to a program.
 GZIP:FILEPATH=/usr/bin/gzip

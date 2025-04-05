@@ -1,4 +1,4 @@
-Sat Mar  1 13:42:58 CST 2025
+Tue Mar 11 15:38:31 CDT 2025
 Running cuda tests...
 GPU: v100
 Backend: cuda
@@ -54,3 +54,10 @@ Scanning dependencies of target CT_CUDA_OBJS
 [ 20%] Building CUDA object src/CircusTent/Impl/CT_CUDA/CMakeFiles/CT_CUDA_OBJS.dir/CT_CUDA.cu.o
 [ 40%] Building CUDA object src/CircusTent/Impl/CT_CUDA/CMakeFiles/CT_CUDA_OBJS.dir/CT_CUDA_IMPL.cu.o
 [ 40%] Built target CT_CUDA_OBJS
+Scanning dependencies of target circustent
+[ 60%] Building CXX object src/CircusTent/CMakeFiles/circustent.dir/CT_Main.cpp.o
+[ 80%] Building CXX object src/CircusTent/CMakeFiles/circustent.dir/CTOpts.cpp.o
+[100%] Linking CXX executable circustent
+[100%] Built target circustent
+CUDA built, running all kernels
+Impl=CUDA Blocks=32 Threads=256 Mem_Size=32089730048
